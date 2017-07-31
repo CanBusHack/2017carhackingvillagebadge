@@ -1,0 +1,88 @@
+DEFCON 25 - 2017 Car hacking Village Badge Notes
+------------------------------------------------
+
+    
+Connector P3
+------------
+Location: Bottom of board, just right of the microUSB connector
+Appearance: 1x5 pin header (not populated)
+Pin 1: Far Left
+Description:
+    This pin header is the JTAG Debug connector for the primary 
+    microcontroller (NXP MK60FX512VLQ15)
+
+Connector P6 
+------------
+Location: Bottom right of board
+Appearance: 3x10 pin header
+Pin 1: Top Left
+Description:
+    This pin header controls which CAN interfaces are routed to
+    which OBD2 connector. If the jumpers are set on the left side,
+    signals for that CAN interface are routed to the female OBD2 
+    conector on the left of the board. If the jumpers are set on 
+    the right side, signals for that CAN interface are routed to
+    the male OBD2 conector connected via the ribbon cable to 
+    connector P5 on the right of the board.
+
+    From top to bottom, the CAN interface mapped to the P6 pins 
+    are:
+
+    CAN3  High
+    CAN3  Low
+    CAN4  High
+    CAN4  Low
+    CAN1  High
+    CAN1  Low
+    CAN2  High
+    CAN2  Low
+    CANFD High
+    CANFD Low
+
+    As an example, the stock jumper settings illustrated below
+    route CAN1 to the Male OBD2 connector (ribbon cable) and
+    CANFD to the Female OBD2 connector.
+    . . . CAN3 High
+    . . . CAN3 Low
+    . . . CAN4 High
+    . . . CAN4 Low
+    . ._. CAN1 Highj
+    . ._. CAN1 Low
+    . . . CAN2 High
+    . . . CAN2 Low
+    ._. . CANFD High
+    ._. . CANFD Low
+
+Connector P10
+-------------
+Location: Right ride of board, left of connector P6
+Appearance: 1x3 pin header (not populated)
+Pin 1: Far Left
+Description:
+    This pin header is the LIN bus connector.
+    Pin 1 is LIN Tx
+    Pin 2 is LIN Rx
+    Pin 3 if GND
+    
+Connector P11
+-------------
+Location: Right side of board, just below Frontt tire of truck overlay
+Appearance: 1x5 pin header (not populated)
+Pin 1: Far Left
+Description:
+    This pin header is the JTAG Debug connector for the secondary 
+    microcontroller (NXP PS32K144U). Note that this microcontroller
+    is not populated on all badges.
+    
+Connector P12
+-------------
+Location: Far bottom edge of board, just right of center
+Appearance: 1x2 pin header (not populated)
+Pin 1: Left
+Description:
+    This pin header is for connection of automotive ethernet.
+    Pin 1 is Positive
+    Pin 2 is Negative
+    
+
+    
