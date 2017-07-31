@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<EmBitz_project_file>
+	<EmBitzVersion release="1.11" revision="0" />
+	<FileVersion major="1" minor="0" />
+	<Project>
+		<Option title="DC2017_S32" />
+		<Option pch_mode="2" />
+		<Option compiler="armgcc_eb" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin\Debug\DC2017_S32.elf" />
+				<Option object_output="obj\Debug\" />
+				<Option type="0" />
+				<Option compiler="armgcc_eb" />
+				<Option projectDeviceOptionsRelation="0" />
+				<Compiler>
+					<Add option="-g3" />
+					<Add option="-O0" />
+					<Add option="-Wall" />
+					<Add option="-fdata-sections" />
+					<Add option="-ffunction-sections" />
+				</Compiler>
+				<Assembler>
+					<Add option="-Wa,--gdwarf-2" />
+				</Assembler>
+				<Linker>
+					<Add option="-Wl,--gc-sections" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin\Release\DC2017_S32.elf" />
+				<Option object_output="obj\Release\" />
+				<Option type="0" />
+				<Option create_hex="1" />
+				<Option compiler="armgcc_eb" />
+				<Option projectDeviceOptionsRelation="0" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-g2" />
+					<Add option="-fdata-sections" />
+					<Add option="-ffunction-sections" />
+				</Compiler>
+				<Assembler>
+					<Add option="-Wa,--no-warn" />
+				</Assembler>
+				<Linker>
+					<Add option="-Wl,--gc-sections" />
+				</Linker>
+			</Target>
+		</Build>
+		<Device>
+			<Add option="$device=cortex-m4" />
+			<Add option="$fpu=fpv4-sp-d16" />
+			<Add option="$lscript=S32K144_64_flash.ld" />
+			<Add option="$stack=0x0100" />
+			<Add option="$heap=0x0000" />
+		</Device>
+		<Compiler>
+			<Add option="-mfloat-abi=hard" />
+			<Add option="-fdata-sections" />
+			<Add option="-ffunction-sections" />
+			<Add option="-O0" />
+			<Add option="-g3" />
+			<Add option="-fno-strict-aliasing" />
+			<Add symbol="CPU_S32K144HFT0VLLT" />
+		</Compiler>
+		<Linker>
+			<Add option="-eb_lib=n" />
+			<Add option="-Wl,--cref" />
+			<Add option="-Wl,--gc-sections" />
+		</Linker>
+		<Unit filename="Inc\MK63F12.h" />
+		<Unit filename="Inc\system_MK63F12.h" />
+		<Unit filename="S32K144_64_flash.ld" />
+		<Unit filename="src\Generated_Code\canCom1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\Generated_Code\canCom1.h" />
+		<Unit filename="src\Generated_Code\canCom2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\Generated_Code\canCom2.h" />
+		<Unit filename="src\Generated_Code\canCom3.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\Generated_Code\canCom3.h" />
+		<Unit filename="src\Generated_Code\clockMan1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\Generated_Code\clockMan1.h" />
+		<Unit filename="src\Generated_Code\Cpu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\Generated_Code\Cpu.h" />
+		<Unit filename="src\Generated_Code\crc1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\Generated_Code\crc1.h" />
+		<Unit filename="src\Generated_Code\csec1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\Generated_Code\csec1.h" />
+		<Unit filename="src\Generated_Code\dmaController1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\Generated_Code\dmaController1.h" />
+		<Unit filename="src\Generated_Code\flexTimer1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\Generated_Code\flexTimer1.h" />
+		<Unit filename="src\Generated_Code\lpspiCom1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\Generated_Code\lpspiCom1.h" />
+		<Unit filename="src\Generated_Code\lpuart1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\Generated_Code\lpuart1.h" />
+		<Unit filename="src\Generated_Code\osif1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\Generated_Code\osif1.h" />
+		<Unit filename="src\Generated_Code\pin_mux.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\Generated_Code\pin_mux.h" />
+		<Unit filename="src\Generated_Code\pwrMan1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\Generated_Code\pwrMan1.h" />
+		<Unit filename="src\SDK\platform\devices\common\s32_core_cm4.h" />
+		<Unit filename="src\SDK\platform\devices\devassert.h" />
+		<Unit filename="src\SDK\platform\devices\device_registers.h" />
+		<Unit filename="src\SDK\platform\devices\S32K144\include\S32K144.h" />
+		<Unit filename="src\SDK\platform\devices\S32K144\include\S32K144_features.h" />
+		<Unit filename="src\SDK\platform\devices\S32K144\startup\system_S32K144.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\SDK\platform\devices\S32K144\startup\system_S32K144.h" />
+		<Unit filename="src\SDK\platform\devices\startup.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\SDK\platform\devices\startup.h" />
+		<Unit filename="src\SDK\platform\devices\status.h" />
+		<Unit filename="src\SDK\platform\drivers\inc\clock_manager.h" />
+		<Unit filename="src\SDK\platform\drivers\inc\crc_driver.h" />
+		<Unit filename="src\SDK\platform\drivers\inc\csec_driver.h" />
+		<Unit filename="src\SDK\platform\drivers\inc\edma_driver.h" />
+		<Unit filename="src\SDK\platform\drivers\inc\flexcan_driver.h" />
+		<Unit filename="src\SDK\platform\drivers\inc\ftm_driver.h" />
+		<Unit filename="src\SDK\platform\drivers\inc\interrupt_manager.h" />
+		<Unit filename="src\SDK\platform\drivers\inc\lpspi_master_driver.h" />
+		<Unit filename="src\SDK\platform\drivers\inc\lpspi_shared_function.h" />
+		<Unit filename="src\SDK\platform\drivers\inc\lpspi_slave_driver.h" />
+		<Unit filename="src\SDK\platform\drivers\inc\lpuart_driver.h" />
+		<Unit filename="src\SDK\platform\drivers\inc\pins_driver.h" />
+		<Unit filename="src\SDK\platform\drivers\inc\power_manager.h" />
+		<Unit filename="src\SDK\platform\drivers\src\clock\clock_manager.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\SDK\platform\drivers\src\clock\S32K144\clock_S32K144.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\SDK\platform\drivers\src\clock\S32K144\clock_S32K144.h" />
+		<Unit filename="src\SDK\platform\drivers\src\crc\crc_driver.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\SDK\platform\drivers\src\csec\csec_driver.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\SDK\platform\drivers\src\edma\edma_common.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\SDK\platform\drivers\src\edma\edma_driver.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\SDK\platform\drivers\src\edma\edma_irq.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\SDK\platform\drivers\src\flexcan\flexcan_common.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\SDK\platform\drivers\src\flexcan\flexcan_driver.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\SDK\platform\drivers\src\flexcan\flexcan_irq.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\SDK\platform\drivers\src\ftm\ftm_driver.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\SDK\platform\drivers\src\interrupt\interrupt_manager.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\SDK\platform\drivers\src\lpspi\lpspi_irq.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\SDK\platform\drivers\src\lpspi\lpspi_master_driver.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\SDK\platform\drivers\src\lpspi\lpspi_shared_function.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\SDK\platform\drivers\src\lpspi\lpspi_slave_driver.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\SDK\platform\drivers\src\lpuart\lpuart_common.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\SDK\platform\drivers\src\lpuart\lpuart_driver.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\SDK\platform\drivers\src\lpuart\lpuart_irq.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\SDK\platform\drivers\src\pins\pins_driver.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\SDK\platform\drivers\src\power\power_manager_common.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\SDK\platform\drivers\src\power\power_manager_smc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\SDK\platform\hal\inc\crc_hal.h" />
+		<Unit filename="src\SDK\platform\hal\inc\csec_hal.h" />
+		<Unit filename="src\SDK\platform\hal\inc\dmamux_hal.h" />
+		<Unit filename="src\SDK\platform\hal\inc\edma_hal.h" />
+		<Unit filename="src\SDK\platform\hal\inc\flexcan_hal.h" />
+		<Unit filename="src\SDK\platform\hal\inc\ftm_hal.h" />
+		<Unit filename="src\SDK\platform\hal\inc\gpio_hal.h" />
+		<Unit filename="src\SDK\platform\hal\inc\lpspi_hal.h" />
+		<Unit filename="src\SDK\platform\hal\inc\lpuart_hal.h" />
+		<Unit filename="src\SDK\platform\hal\inc\pcc_hal.h" />
+		<Unit filename="src\SDK\platform\hal\inc\pmc_hal.h" />
+		<Unit filename="src\SDK\platform\hal\inc\port_hal.h" />
+		<Unit filename="src\SDK\platform\hal\inc\rcm_hal.h" />
+		<Unit filename="src\SDK\platform\hal\inc\scg_hal.h" />
+		<Unit filename="src\SDK\platform\hal\inc\sim_hal.h" />
+		<Unit filename="src\SDK\platform\hal\inc\smc_hal.h" />
+		<Unit filename="src\SDK\platform\hal\src\crc\crc_hal.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\SDK\platform\hal\src\csec\csec_hal.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\SDK\platform\hal\src\dmamux\dmamux_hal.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\SDK\platform\hal\src\edma\edma_hal.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\SDK\platform\hal\src\flexcan\flexcan_hal.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\SDK\platform\hal\src\ftm\ftm_hal.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\SDK\platform\hal\src\lpspi\lpspi_hal.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\SDK\platform\hal\src\lpuart\lpuart_hal.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\SDK\platform\hal\src\pcc\pcc_hal.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\SDK\platform\hal\src\pmc\pmc_hal.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\SDK\platform\hal\src\port\port_hal.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\SDK\platform\hal\src\rcm\rcm_hal.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\SDK\platform\hal\src\scg\scg_hal.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\SDK\platform\hal\src\sim\S32K144\sim_hal_S32K144.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\SDK\platform\hal\src\sim\S32K144\sim_hal_S32K144.h" />
+		<Unit filename="src\SDK\platform\hal\src\smc\smc_hal.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\SDK\rtos\osif\osif.h" />
+		<Unit filename="src\SDK\rtos\osif\osif_baremetal.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\Sources\main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\startup_S32K144.S">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<debugger>
+				<target_debugging_settings target="Release" active_interface="" />
+				<target_debugging_settings target="Debug" active_interface="J-link">
+					<debug_interface interface_id="Generic" ip_address="" ip_port="" path="" executable="" description=".\S32K144.svd" dont_start_server="false" backoff_time="" options="0" reg_filter="0" active_family="All" gdb_before_conn="" gdb_after_conn="">
+						<family_options family_id="All" />
+					</debug_interface>
+					<debug_interface interface_id="J-link" ip_address="localhost" ip_port="2331" path="%Software\SEGGER\J-Link:InstallPath%" executable="JLinkGDBServer.exe" description="S32K144.svd" dont_start_server="false" backoff_time="2000" options="0" reg_filter="0" active_family="Generic" gdb_before_conn="" gdb_after_conn="">
+						<family_options family_id="Generic">
+							<option opt_id="ID_CMD_BEFORE" opt_value="-select USB -device S32K144 -if SWD -speed auto -noir" />
+							<option opt_id="ID_GDB_SERVER_CL" opt_value="-select USB -device S32K144 -if SWD -speed auto -noir" />
+							<option opt_id="ID_CMD_RESET" opt_value="monitor reset" />
+							<option opt_id="ID_CMD_AFTER" opt_value="monitor reset&#x0A;monitor flash device = S32K144 &#x0A;load" />
+						</family_options>
+					</debug_interface>
+				</target_debugging_settings>
+			</debugger>
+			<envvars />
+		</Extensions>
+	</Project>
+</EmBitz_project_file>

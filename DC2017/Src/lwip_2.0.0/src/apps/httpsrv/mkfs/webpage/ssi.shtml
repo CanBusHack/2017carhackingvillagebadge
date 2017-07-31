@@ -1,0 +1,20 @@
+<!DOCTYPE HTML SYSTEM>
+<html>
+
+<head>
+<title>KSDK HTTP Server Example</title>
+    <style type="text/css">
+    <!--
+    @import"httpsrv.css";
+    -->
+    </style>
+</head>
+
+<body>
+    <h2>SSI example</h2>
+    <p>
+       This page demonstrates Server Side Includes by inserting project build time and date:<br>
+       Application was build on <b><%date_time:date%></b> at <b><%date_time:time%></b>.
+    </p>
+</body>
+</html>

@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<EmBitz_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="DC2017_Debug.ld" open="0" top="0" tabpos="28" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3549" topLine="91" />
+		</Cursor>
+	</File>
+	<File name="Src\accel\accel.c" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="10855" topLine="217" />
+		</Cursor>
+	</File>
+	<File name="Src\accel\accel.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1534" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Src\can\can.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="6310" topLine="77" />
+		</Cursor>
+	</File>
+	<File name="Src\can\can.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1406" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Src\CMSIS\cmsis_armcc.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="9609" topLine="264" />
+		</Cursor>
+	</File>
+	<File name="Src\CMSIS\core_cm4.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="105106" topLine="1626" />
+		</Cursor>
+	</File>
+	<File name="Src\CMSIS\MK63F12.h" open="0" top="0" tabpos="17" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="176444" topLine="2468" />
+		</Cursor>
+	</File>
+	<File name="Src\CMSIS\MK63F12_features.h" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="16101" topLine="230" />
+		</Cursor>
+	</File>
+	<File name="Src\CMSIS\system_MK63F12.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="6308" topLine="76" />
+		</Cursor>
+	</File>
+	<File name="Src\CMSIS\system_MK63F12.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4848" topLine="50" />
+		</Cursor>
+	</File>
+	<File name="Src\demos\dc2017\dc2017_main.c" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3719" topLine="91" />
+		</Cursor>
+	</File>
+	<File name="Src\demos\dc2017\pedometer\KeynetikPedometer.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2275" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Src\demos\dc2017\pedometer\pedometer.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="63" />
+		</Cursor>
+	</File>
+	<File name="Src\demos\dc2017\resources\bat_25.c" open="0" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="719" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Src\demos\dc2017\resources\bat_50.c" open="0" top="0" tabpos="14" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="719" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Src\demos\dc2017\resources\bat_75.c" open="0" top="0" tabpos="15" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="719" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Src\demos\dc2017\resources\bat_chrg.c" open="0" top="0" tabpos="17" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="723" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Src\demos\dc2017\resources\bat_empty.c" open="0" top="0" tabpos="16" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="727" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Src\demos\dc2017\resources\bat_full.c" open="0" top="0" tabpos="13" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="723" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Src\demos\dc2017\resources\NXP.c" open="0" top="0" tabpos="23" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="713" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Src\demos\dc2017\resources\rapid7.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="639" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Src\demos\EOL\eol.c" open="1" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="-1" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1646" topLine="54" />
+		</Cursor>
+	</File>
+	<File name="Src\drivers\fsl_clock.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="10270" topLine="215" />
+		</Cursor>
+	</File>
+	<File name="Src\drivers\fsl_clock.h" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="10029" topLine="260" />
+		</Cursor>
+	</File>
+	<File name="Src\drivers\fsl_common.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2417" topLine="46" />
+		</Cursor>
+	</File>
+	<File name="Src\drivers\fsl_common.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="11308" topLine="157" />
+		</Cursor>
+	</File>
+	<File name="Src\drivers\fsl_dspi.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="26075" topLine="581" />
+		</Cursor>
+	</File>
+	<File name="Src\drivers\fsl_dspi.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="6080" topLine="65" />
+		</Cursor>
+	</File>
+	<File name="Src\drivers\fsl_dspi_freertos.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="10" />
+		</Cursor>
+	</File>
+	<File name="Src\drivers\fsl_dspi_freertos.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="17" />
+		</Cursor>
+	</File>
+	<File name="Src\drivers\fsl_enet.c" open="0" top="0" tabpos="17" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="13155" topLine="229" />
+		</Cursor>
+	</File>
+	<File name="Src\drivers\fsl_enet.h" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="43631" topLine="772" />
+		</Cursor>
+	</File>
+	<File name="Src\drivers\fsl_flexcan.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="32088" topLine="892" />
+		</Cursor>
+	</File>
+	<File name="Src\drivers\fsl_flexcan.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="17430" topLine="266" />
+		</Cursor>
+	</File>
+	<File name="Src\drivers\fsl_ftm.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="11270" topLine="283" />
+		</Cursor>
+	</File>
+	<File name="Src\drivers\fsl_ftm.h" open="0" top="0" tabpos="22" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3653" topLine="38" />
+		</Cursor>
+	</File>
+	<File name="Src\drivers\fsl_gpio.c" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5292" topLine="84" />
+		</Cursor>
+	</File>
+	<File name="Src\drivers\fsl_gpio.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="8509" topLine="190" />
+		</Cursor>
+	</File>
+	<File name="Src\drivers\fsl_i2c.c" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="24490" topLine="592" />
+		</Cursor>
+	</File>
+	<File name="Src\drivers\fsl_pdb.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="30" />
+		</Cursor>
+	</File>
+	<File name="Src\drivers\fsl_pmc.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1348" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Src\drivers\fsl_port.h" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="15515" topLine="323" />
+		</Cursor>
+	</File>
+	<File name="Src\drivers\fsl_sdhc.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="13653" topLine="364" />
+		</Cursor>
+	</File>
+	<File name="Src\drivers\fsl_sdhc.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2630" topLine="2" />
+		</Cursor>
+	</File>
+	<File name="Src\drivers\fsl_sim.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2294" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Src\drivers\fsl_smc.c" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3992" topLine="69" />
+		</Cursor>
+	</File>
+	<File name="Src\drivers\fsl_sysmpu.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="13745" topLine="233" />
+		</Cursor>
+	</File>
+	<File name="Src\drivers\fsl_uart.c" open="0" top="0" tabpos="30" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="15948" topLine="454" />
+		</Cursor>
+	</File>
+	<File name="Src\drivers\fsl_uart.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="10472" topLine="125" />
+		</Cursor>
+	</File>
+	<File name="Src\enet\fsl_phy.c" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="6357" topLine="73" />
+		</Cursor>
+	</File>
+	<File name="Src\enet\fsl_phy.h" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2485" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Src\enet\lwip_tcpecho_freertos.c" open="0" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3760" topLine="43" />
+		</Cursor>
+	</File>
+	<File name="Src\freertos\croutine.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="8973" topLine="140" />
+		</Cursor>
+	</File>
+	<File name="Src\freertos\freertos_tasks_c_additions.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="14" />
+		</Cursor>
+	</File>
+	<File name="Src\freertos\FreeRTOSConfig.h" open="0" top="0" tabpos="20" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="6034" topLine="73" />
+		</Cursor>
+	</File>
+	<File name="Src\freertos\port.c" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="15407" topLine="268" />
+		</Cursor>
+	</File>
+	<File name="Src\freertos\StackMacros.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5135" topLine="58" />
+		</Cursor>
+	</File>
+	<File name="Src\freertos\task.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="30952" topLine="685" />
+		</Cursor>
+	</File>
+	<File name="Src\freertos\tasks.c" open="0" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="94684" topLine="2752" />
+		</Cursor>
+	</File>
+	<File name="Src\host\host.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1494" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Src\include\cpu.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1918" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Src\include\datatypes.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2100" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Src\led\led.c" open="1" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="8267" topLine="61" />
+		</Cursor>
+	</File>
+	<File name="Src\led\led.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1288" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Src\lwip_2.0.0\contrib\apps\ping\ping.c" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1275" topLine="13" />
+		</Cursor>
+	</File>
+	<File name="Src\lwip_2.0.0\contrib\apps\ping\ping.h" open="0" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="345" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Src\lwip_2.0.0\port\arch\cc.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3460" topLine="24" />
+		</Cursor>
+	</File>
+	<File name="Src\lwip_2.0.0\port\ethernetif.c" open="0" top="0" tabpos="15" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="13289" topLine="308" />
+		</Cursor>
+	</File>
+	<File name="Src\lwip_2.0.0\port\ethernetif.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4054" topLine="35" />
+		</Cursor>
+	</File>
+	<File name="Src\lwip_2.0.0\port\sys_arch.c" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="21547" topLine="515" />
+		</Cursor>
+	</File>
+	<File name="Src\lwip_2.0.0\src\api\api_lib.c" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="22785" topLine="595" />
+		</Cursor>
+	</File>
+	<File name="Src\lwip_2.0.0\src\api\api_msg.c" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="45816" topLine="1324" />
+		</Cursor>
+	</File>
+	<File name="Src\lwip_2.0.0\src\api\sockets.c" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="25200" topLine="757" />
+		</Cursor>
+	</File>
+	<File name="Src\lwip_2.0.0\src\api\tcpip.c" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3466" topLine="32" />
+		</Cursor>
+	</File>
+	<File name="Src\lwip_2.0.0\src\core\ipv4\etharp.c" open="0" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="35278" topLine="911" />
+		</Cursor>
+	</File>
+	<File name="Src\lwip_2.0.0\src\core\ipv4\ip4.c" open="0" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="24470" topLine="651" />
+		</Cursor>
+	</File>
+	<File name="Src\lwip_2.0.0\src\core\netif.c" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="7975" topLine="230" />
+		</Cursor>
+	</File>
+	<File name="Src\lwip_2.0.0\src\core\pbuf.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5836" topLine="113" />
+		</Cursor>
+	</File>
+	<File name="Src\lwip_2.0.0\src\core\raw.c" open="0" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5970" topLine="118" />
+		</Cursor>
+	</File>
+	<File name="Src\lwip_2.0.0\src\core\tcp.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="40329" topLine="1157" />
+		</Cursor>
+	</File>
+	<File name="Src\lwip_2.0.0\src\core\udp.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2998" topLine="31" />
+		</Cursor>
+	</File>
+	<File name="Src\lwip_2.0.0\src\include\lwip\debug.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4593" topLine="14" />
+		</Cursor>
+	</File>
+	<File name="Src\lwip_2.0.0\src\include\lwip\netif.h" open="0" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="14899" topLine="299" />
+		</Cursor>
+	</File>
+	<File name="Src\lwip_2.0.0\src\include\lwip\opt.h" open="0" top="0" tabpos="12" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="51796" topLine="1553" />
+		</Cursor>
+	</File>
+	<File name="Src\lwip_2.0.0\src\include\lwip\udp.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3846" topLine="21" />
+		</Cursor>
+	</File>
+	<File name="Src\lwip_2.0.0\src\netif\ethernet.c" open="0" top="0" tabpos="12" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="7027" topLine="62" />
+		</Cursor>
+	</File>
+	<File name="Src\oled\font_medium.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1035" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Src\oled\graphics.c" open="0" top="0" tabpos="12" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1064" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Src\oled\oled.c" open="0" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="920" topLine="62" />
+		</Cursor>
+	</File>
+	<File name="Src\oled\oled.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1772" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Src\power\power.c" open="1" top="1" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2932" topLine="12" />
+		</Cursor>
+	</File>
+	<File name="Src\power\power.h" open="0" top="0" tabpos="18" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="157" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Src\sdcard\event.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2989" topLine="37" />
+		</Cursor>
+	</File>
+	<File name="Src\sdcard\fatfs_0.12b\src\diskio.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4051" topLine="68" />
+		</Cursor>
+	</File>
+	<File name="Src\sdcard\fatfs_0.12b\src\ff.c" open="0" top="0" tabpos="34" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="32020" topLine="684" />
+		</Cursor>
+	</File>
+	<File name="Src\sdcard\fatfs_0.12b\src\ff.h" open="0" top="0" tabpos="32" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="6203" topLine="128" />
+		</Cursor>
+	</File>
+	<File name="Src\sdcard\fatfs_0.12b\src\fsl_sd_disk\fsl_sd_disk.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4719" topLine="56" />
+		</Cursor>
+	</File>
+	<File name="Src\sdcard\fsl_host.c" open="0" top="0" tabpos="33" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="6366" topLine="80" />
+		</Cursor>
+	</File>
+	<File name="Src\sdcard\sdcard_fatfs.c" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3618" topLine="5" />
+		</Cursor>
+	</File>
+	<File name="Src\sdcard\sdmmc_2.1.2\inc\fsl_host.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4580" topLine="58" />
+		</Cursor>
+	</File>
+	<File name="Src\sdcard\sdmmc_2.1.2\inc\fsl_specification.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="13699" topLine="149" />
+		</Cursor>
+	</File>
+	<File name="Src\sdcard\sdmmc_2.1.2\src\fsl_sd.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="19484" topLine="524" />
+		</Cursor>
+	</File>
+	<File name="Src\sdcard\sdmmc_2.1.2\src\fsl_sdmmc.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2498" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Src\source\board.c" open="0" top="0" tabpos="27" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="417" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Src\source\board.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="427" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Src\source\clock_config.c" open="0" top="0" tabpos="26" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="7262" topLine="76" />
+		</Cursor>
+	</File>
+	<File name="Src\source\DC2017.c" open="0" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3612" topLine="66" />
+		</Cursor>
+	</File>
+	<File name="Src\source\pin_mux.c" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="18265" topLine="183" />
+		</Cursor>
+	</File>
+	<File name="Src\source\pin_mux.h" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="12106" topLine="117" />
+		</Cursor>
+	</File>
+	<File name="Src\startup\startup_mk63f12.c" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="23203" topLine="388" />
+		</Cursor>
+	</File>
+	<File name="Src\usb\class\usb_device_cdc_acm.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1770" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Src\usb\class\usb_device_ch9.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="17894" topLine="321" />
+		</Cursor>
+	</File>
+	<File name="Src\usb\class\usb_device_class.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="17424" topLine="331" />
+		</Cursor>
+	</File>
+	<File name="Src\usb\class\usb_device_config.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2171" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Src\usb\class\usb_device_descriptor.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="8871" topLine="135" />
+		</Cursor>
+	</File>
+	<File name="Src\usb\class\virtual_com.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2070" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Src\usb\class\virtual_com.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4860" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Src\usb\stack\device\usb_device_dci.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="45222" topLine="1005" />
+		</Cursor>
+	</File>
+	<File name="Src\usb\stack\device\usb_device_khci.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="6657" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Src\usb\stack\include\usb.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1768" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Src\usb\stack\include\usb_misc.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2262" topLine="9" />
+		</Cursor>
+	</File>
+	<File name="Src\utilities\fsl_debug_console.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="12325" topLine="219" />
+		</Cursor>
+	</File>
+	<File name="Src\utilities\fsl_debug_console.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2442" topLine="18" />
+		</Cursor>
+	</File>
+</EmBitz_layout_file>

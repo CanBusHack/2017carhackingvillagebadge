@@ -1,0 +1,528 @@
+# depslib dependency file v1.0
+1496968854 source:c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\generated_code\cancom1.c
+	"canCom1.h"
+
+1496936111 c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\generated_code\cancom1.h
+	"clockMan1.h"
+	"dmaController1.h"
+	"osif1.h"
+	"Cpu.h"
+
+1496958039 c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\generated_code\clockman1.h
+	<stdbool.h>
+	<stdint.h>
+	"Cpu.h"
+
+1496937032 c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\generated_code\cpu.h
+	"device_registers.h"
+	"clock_manager.h"
+	"interrupt_manager.h"
+	"sim_hal.h"
+	"scg_hal.h"
+	"pcc_hal.h"
+	"pmc_hal.h"
+	"smc_hal.h"
+	"port_hal.h"
+	"gpio_hal.h"
+	"dmamux_hal.h"
+	"edma_hal.h"
+	"edma_driver.h"
+	"flexcan_hal.h"
+	"flexcan_driver.h"
+	"lpuart_hal.h"
+	"lpuart_driver.h"
+	"lpspi_hal.h"
+	"lpspi_master_driver.h"
+	"lpspi_slave_driver.h"
+	"lpspi_shared_function.h"
+	"rcm_hal.h"
+	"power_manager.h"
+	"ftm_hal.h"
+	"ftm_driver.h"
+	"crc_hal.h"
+	"crc_driver.h"
+	"csec_hal.h"
+	"csec_driver.h"
+	"system_S32K144.h"
+
+1496934503 c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\sdk\platform\devices\device_registers.h
+	"S32K144/include/S32K144.h"
+	"S32K144/include/S32K144_features.h"
+	"common/s32_core_cm4.h"
+	"S32V234/include/S32V234.h"
+	"S32V234/include/S32V234_features.h"
+	"common/s32_core_cm4.h"
+	"devassert.h"
+
+1496934503 c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\sdk\platform\devices\s32k144\include\s32k144.h
+	<stdint.h>
+
+1496934503 c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\sdk\platform\devices\s32k144\include\s32k144_features.h
+
+1496934503 c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\sdk\platform\devices\common\s32_core_cm4.h
+
+1496934503 c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\sdk\platform\devices\devassert.h
+	<stdbool.h>
+	"s32_core_cm4.h"
+
+1496934503 c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\sdk\platform\drivers\inc\clock_manager.h
+	"device_registers.h"
+	"status.h"
+	<stdbool.h>
+	"../src/clock/S32K144/clock_S32K144.h"
+	"../src/clock/S32V234/clock_S32V234.h"
+
+1496934503 c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\sdk\platform\devices\status.h
+
+1496934503 c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\sdk\platform\drivers\src\clock\s32k144\clock_s32k144.h
+	"scg_hal.h"
+	"pcc_hal.h"
+	"sim_hal.h"
+	"smc_hal.h"
+	"pmc_hal.h"
+
+1496934503 c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\sdk\platform\hal\inc\scg_hal.h
+	"device_registers.h"
+	"status.h"
+	<stdbool.h>
+	<stddef.h>
+
+1496934503 c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\sdk\platform\hal\inc\pcc_hal.h
+	"device_registers.h"
+	<stdbool.h>
+
+1496934503 c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\sdk\platform\hal\inc\sim_hal.h
+	"../src/sim/S32K144/sim_hal_S32K144.h"
+
+1496934503 c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\sdk\platform\hal\src\sim\s32k144\sim_hal_s32k144.h
+	"device_registers.h"
+	<stdbool.h>
+	<stddef.h>
+
+1496934503 c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\sdk\platform\hal\inc\smc_hal.h
+	"device_registers.h"
+	"status.h"
+	<stdbool.h>
+
+1496934503 c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\sdk\platform\hal\inc\pmc_hal.h
+	"device_registers.h"
+	<stdbool.h>
+
+1496934503 c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\sdk\platform\drivers\inc\interrupt_manager.h
+	"device_registers.h"
+
+1496934503 c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\sdk\platform\hal\inc\port_hal.h
+	"device_registers.h"
+	<stdbool.h>
+
+1496934503 c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\sdk\platform\hal\inc\gpio_hal.h
+	<stdint.h>
+	"device_registers.h"
+
+1496936110 c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\sdk\platform\hal\inc\dmamux_hal.h
+	<stdint.h>
+	<stdbool.h>
+	"device_registers.h"
+
+1496936110 c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\sdk\platform\hal\inc\edma_hal.h
+	<stdint.h>
+	<stdbool.h>
+	"device_registers.h"
+
+1496936110 c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\sdk\platform\drivers\inc\edma_driver.h
+	"device_registers.h"
+	"edma_hal.h"
+	"dmamux_hal.h"
+	"clock_manager.h"
+	"status.h"
+	<stddef.h>
+
+1496936110 c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\sdk\platform\hal\inc\flexcan_hal.h
+	<assert.h>
+	<stdint.h>
+	<stdbool.h>
+	<stddef.h>
+	"device_registers.h"
+	"status.h"
+
+1496936110 c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\sdk\platform\drivers\inc\flexcan_driver.h
+	"flexcan_hal.h"
+	"osif.h"
+	"edma_driver.h"
+
+1496936110 c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\sdk\rtos\osif\osif.h
+	<stdint.h>
+	"FreeRTOS.h"
+	"semphr.h"
+	"status.h"
+
+1496936110 c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\sdk\platform\hal\inc\lpuart_hal.h
+	"device_registers.h"
+	"status.h"
+	<stdbool.h>
+	<stddef.h>
+
+1496936110 c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\sdk\platform\drivers\inc\lpuart_driver.h
+	<stddef.h>
+	"lpuart_hal.h"
+	"clock_manager.h"
+	"interrupt_manager.h"
+	"osif.h"
+	"edma_driver.h"
+
+1496936110 c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\sdk\platform\hal\inc\lpspi_hal.h
+	<stdint.h>
+	<stdbool.h>
+	<stddef.h>
+	"status.h"
+	"device_registers.h"
+
+1496936110 c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\sdk\platform\drivers\inc\lpspi_master_driver.h
+	"lpspi_shared_function.h"
+
+1496936110 c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\sdk\platform\drivers\inc\lpspi_shared_function.h
+	<stdbool.h>
+	"lpspi_hal.h"
+	"edma_driver.h"
+	"osif.h"
+	"status.h"
+
+1496936110 c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\sdk\platform\drivers\inc\lpspi_slave_driver.h
+	"lpspi_shared_function.h"
+
+1496936110 c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\sdk\platform\hal\inc\rcm_hal.h
+	"device_registers.h"
+	<stdbool.h>
+
+1496936111 c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\sdk\platform\drivers\inc\power_manager.h
+	"device_registers.h"
+	"smc_hal.h"
+	"mc_me_hal.h"
+
+1496937032 c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\sdk\platform\hal\inc\ftm_hal.h
+	<stdbool.h>
+	<stddef.h>
+	"device_registers.h"
+
+1496937032 c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\sdk\platform\drivers\inc\ftm_driver.h
+	"status.h"
+	"clock_manager.h"
+	"interrupt_manager.h"
+	"ftm_hal.h"
+
+1496937032 c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\sdk\platform\hal\inc\crc_hal.h
+	<stddef.h>
+	<stdbool.h>
+	"device_registers.h"
+
+1496937032 c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\sdk\platform\drivers\inc\crc_driver.h
+	"crc_hal.h"
+	"status.h"
+
+1496937032 c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\sdk\platform\hal\inc\csec_hal.h
+	<stdint.h>
+	<stdbool.h>
+	"device_registers.h"
+	<stddef.h>
+	"status.h"
+
+1496937032 c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\sdk\platform\drivers\inc\csec_driver.h
+	<stdint.h>
+	<stdbool.h>
+	<stdlib.h>
+	"device_registers.h"
+	"csec_hal.h"
+	"interrupt_manager.h"
+
+1496934503 c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\sdk\platform\devices\s32k144\startup\system_s32k144.h
+	<stdint.h>
+
+1496936111 c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\generated_code\dmacontroller1.h
+	"clockMan1.h"
+	"Cpu.h"
+
+1496936111 c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\generated_code\osif1.h
+	"clockMan1.h"
+	"Cpu.h"
+	"osif.h"
+
+1496936111 source:c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\generated_code\cancom2.c
+	"canCom2.h"
+
+1496936111 c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\generated_code\cancom2.h
+	"clockMan1.h"
+	"dmaController1.h"
+	"osif1.h"
+	"Cpu.h"
+
+1496936111 source:c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\generated_code\cancom3.c
+	"canCom3.h"
+
+1496936111 c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\generated_code\cancom3.h
+	"clockMan1.h"
+	"dmaController1.h"
+	"osif1.h"
+	"Cpu.h"
+
+1496958039 source:c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\generated_code\clockman1.c
+	"clockMan1.h"
+
+1496937032 source:c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\generated_code\cpu.c
+	"Cpu.h"
+
+1496937032 source:c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\generated_code\crc1.c
+	"crc1.h"
+
+1496937032 c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\generated_code\crc1.h
+	"clockMan1.h"
+	"Cpu.h"
+
+1496937032 source:c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\generated_code\csec1.c
+	"csec1.h"
+
+1496937032 c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\generated_code\csec1.h
+	"Cpu.h"
+
+1496936111 source:c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\generated_code\dmacontroller1.c
+	"dmaController1.h"
+
+1496937032 source:c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\generated_code\flextimer1.c
+	"flexTimer1.h"
+
+1496937032 c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\generated_code\flextimer1.h
+	"clockMan1.h"
+	"ftm_driver.h"
+	"Cpu.h"
+
+1496936111 source:c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\generated_code\lpspicom1.c
+	"lpspiCom1.h"
+
+1496936111 c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\generated_code\lpspicom1.h
+	"clockMan1.h"
+	"dmaController1.h"
+	"osif1.h"
+	"Cpu.h"
+
+1496960719 source:c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\generated_code\lpuart1.c
+	"lpuart1.h"
+
+1496958363 c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\generated_code\lpuart1.h
+	"clockMan1.h"
+	"dmaController1.h"
+	"osif1.h"
+	"Cpu.h"
+
+1496936111 source:c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\generated_code\osif1.c
+	"osif1.h"
+
+1496962556 source:c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\generated_code\pin_mux.c
+	"device_registers.h"
+	"pin_mux.h"
+
+1496943439 c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\generated_code\pin_mux.h
+	"pins_driver.h"
+
+1496934503 c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\sdk\platform\drivers\inc\pins_driver.h
+	<stdint.h>
+	"device_registers.h"
+	"status.h"
+	"port_hal.h"
+	"gpio_hal.h"
+
+1496945475 source:c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\generated_code\pwrman1.c
+	"pwrMan1.h"
+
+1496945502 c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\generated_code\pwrman1.h
+	"Cpu.h"
+	"power_manager.h"
+
+1496934503 source:c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\sdk\platform\devices\s32k144\startup\system_s32k144.c
+	"device_registers.h"
+	"system_S32K144.h"
+	"stdbool.h"
+
+1496934503 source:c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\sdk\platform\devices\startup.c
+	"startup.h"
+	"device_registers.h"
+	<stdint.h>
+
+1496934503 c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\sdk\platform\devices\startup.h
+
+1496934503 source:c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\sdk\platform\drivers\src\clock\clock_manager.c
+	"device_registers.h"
+	"clock_manager.h"
+	"interrupt_manager.h"
+	<stddef.h>
+
+1496934503 source:c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\sdk\platform\drivers\src\clock\s32k144\clock_s32k144.c
+	"clock_S32K144.h"
+	"clock_manager.h"
+	"device_registers.h"
+	<stddef.h>
+
+1496937032 source:c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\sdk\platform\drivers\src\crc\crc_driver.c
+	"crc_driver.h"
+
+1496937032 source:c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\sdk\platform\drivers\src\csec\csec_driver.c
+	"csec_driver.h"
+
+1496936110 source:c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\sdk\platform\drivers\src\edma\edma_common.c
+	<stdint.h>
+	"device_registers.h"
+	"clock_manager.h"
+	"edma_driver.h"
+
+1496936110 source:c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\sdk\platform\drivers\src\edma\edma_driver.c
+	"edma_driver.h"
+	"clock_manager.h"
+	"interrupt_manager.h"
+
+1496936110 source:c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\sdk\platform\drivers\src\edma\edma_irq.c
+	"device_registers.h"
+
+1496936110 source:c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\sdk\platform\drivers\src\flexcan\flexcan_common.c
+	"device_registers.h"
+	"flexcan_driver.h"
+
+1496936110 source:c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\sdk\platform\drivers\src\flexcan\flexcan_driver.c
+	"flexcan_driver.h"
+	"interrupt_manager.h"
+
+1496936110 source:c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\sdk\platform\drivers\src\flexcan\flexcan_irq.c
+	"flexcan_driver.h"
+
+1496937032 source:c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\sdk\platform\drivers\src\ftm\ftm_driver.c
+	"ftm_driver.h"
+
+1496934503 source:c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\sdk\platform\drivers\src\interrupt\interrupt_manager.c
+	"interrupt_manager.h"
+
+1496936110 source:c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\sdk\platform\drivers\src\lpspi\lpspi_irq.c
+	<assert.h>
+	<stdbool.h>
+	"device_registers.h"
+	"lpspi_shared_function.h"
+
+1496936110 source:c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\sdk\platform\drivers\src\lpspi\lpspi_master_driver.c
+	<string.h>
+	"lpspi_master_driver.h"
+	"clock_manager.h"
+	"interrupt_manager.h"
+	"lpspi_shared_function.h"
+	"S32K144_features.h"
+
+1496936110 source:c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\sdk\platform\drivers\src\lpspi\lpspi_shared_function.c
+	<assert.h>
+	"lpspi_shared_function.h"
+
+1496936110 source:c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\sdk\platform\drivers\src\lpspi\lpspi_slave_driver.c
+	<string.h>
+	"lpspi_slave_driver.h"
+	"clock_manager.h"
+	"interrupt_manager.h"
+	"lpspi_shared_function.h"
+	"S32K144_features.h"
+
+1496936110 source:c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\sdk\platform\drivers\src\lpuart\lpuart_common.c
+	"device_registers.h"
+	"clock_manager.h"
+	"interrupt_manager.h"
+	"edma_driver.h"
+
+1496936110 source:c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\sdk\platform\drivers\src\lpuart\lpuart_driver.c
+	"lpuart_driver.h"
+
+1496936110 source:c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\sdk\platform\drivers\src\lpuart\lpuart_irq.c
+	"device_registers.h"
+
+1496934503 source:c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\sdk\platform\drivers\src\pins\pins_driver.c
+	"pins_driver.h"
+	"clock_manager.h"
+	<stdint.h>
+	<stdbool.h>
+	<stddef.h>
+
+1496936111 source:c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\sdk\platform\drivers\src\power\power_manager_common.c
+	<stddef.h>
+	"power_manager.h"
+
+1496936111 source:c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\sdk\platform\drivers\src\power\power_manager_smc.c
+	"power_manager.h"
+	"smc_hal.h"
+
+1496937032 source:c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\sdk\platform\hal\src\crc\crc_hal.c
+	"crc_hal.h"
+
+1496937032 source:c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\sdk\platform\hal\src\csec\csec_hal.c
+	"csec_hal.h"
+
+1496936110 source:c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\sdk\platform\hal\src\dmamux\dmamux_hal.c
+	"dmamux_hal.h"
+
+1496936110 source:c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\sdk\platform\hal\src\edma\edma_hal.c
+	"edma_hal.h"
+
+1496936110 source:c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\sdk\platform\hal\src\flexcan\flexcan_hal.c
+	"flexcan_hal.h"
+
+1496937032 source:c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\sdk\platform\hal\src\ftm\ftm_hal.c
+	"ftm_hal.h"
+
+1496936110 source:c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\sdk\platform\hal\src\lpspi\lpspi_hal.c
+	"lpspi_hal.h"
+
+1496936110 source:c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\sdk\platform\hal\src\lpuart\lpuart_hal.c
+	"lpuart_hal.h"
+
+1496934503 source:c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\sdk\platform\hal\src\pcc\pcc_hal.c
+	"pcc_hal.h"
+	<stddef.h>
+
+1496934503 source:c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\sdk\platform\hal\src\pmc\pmc_hal.c
+	"pmc_hal.h"
+
+1496934503 source:c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\sdk\platform\hal\src\port\port_hal.c
+	"port_hal.h"
+
+1496936110 source:c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\sdk\platform\hal\src\rcm\rcm_hal.c
+	"rcm_hal.h"
+
+1496934503 source:c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\sdk\platform\hal\src\scg\scg_hal.c
+	"scg_hal.h"
+
+1496934503 source:c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\sdk\platform\hal\src\sim\s32k144\sim_hal_s32k144.c
+	"device_registers.h"
+	"sim_hal.h"
+
+1496934503 source:c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\sdk\platform\hal\src\smc\smc_hal.c
+	"smc_hal.h"
+	<stddef.h>
+
+1496936110 source:c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\sdk\rtos\osif\osif_baremetal.c
+	"osif.h"
+	"devassert.h"
+	<stddef.h>
+	"interrupt_manager.h"
+	"clock_manager.h"
+
+1496968736 source:c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\sources\main.c
+	"Cpu.h"
+	"pin_mux.h"
+	"clockMan1.h"
+	"canCom1.h"
+	"dmaController1.h"
+	"osif1.h"
+	"canCom2.h"
+	"canCom3.h"
+	"lpuart1.h"
+	"lpspiCom1.h"
+	"pwrMan1.h"
+	"flexTimer1.h"
+	"crc1.h"
+	"csec1.h"
+	"gpio_hal.h"
+	"pcc_hal.h"
+	<string.h>
+
+1496947378 source:c:\repos\specializedsolutions\qcm\software\dc2017_s32\src\startup_s32k144.s
+
