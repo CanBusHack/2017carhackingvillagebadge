@@ -1,0 +1,2572 @@
+# depslib dependency file v1.0
+1499921895 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\accel\accel.c
+	"datatypes.h"
+	"cpu.h"
+	"accel.h"
+	"pin_mux.h"
+	"fsl_port.h"
+	"fsl_gpio.h"
+	"fsl_ftm.h"
+	"fsl_i2c.h"
+	"FreeRTOS.h"
+	"task.h"
+	"semphr.h"
+
+1496766430 c:\repos\specializedsolutions\qcm\software\dc2017\src\include\datatypes.h
+	<stdint.h>
+
+1496766404 c:\repos\specializedsolutions\qcm\software\dc2017\src\include\cpu.h
+	"datatypes.h"
+	"fsl_common.h"
+
+1496707850 c:\repos\specializedsolutions\qcm\software\dc2017\src\drivers\fsl_common.h
+	<assert.h>
+	<stdbool.h>
+	<stdint.h>
+	<string.h>
+	<stddef.h>
+	"fsl_device_registers.h"
+	"fsl_clock.h"
+	"fsl_reset.h"
+
+1496700503 c:\repos\specializedsolutions\qcm\software\dc2017\src\cmsis\fsl_device_registers.h
+	"MK63F12.h"
+	"MK63F12_features.h"
+
+1496700503 c:\repos\specializedsolutions\qcm\software\dc2017\src\cmsis\mk63f12.h
+	"core_cm4.h"
+	"system_MK63F12.h"
+
+1496700502 c:\repos\specializedsolutions\qcm\software\dc2017\src\cmsis\core_cm4.h
+	<stdint.h>
+	"core_cmInstr.h"
+	"core_cmFunc.h"
+	"core_cmSimd.h"
+
+1496700503 c:\repos\specializedsolutions\qcm\software\dc2017\src\cmsis\core_cminstr.h
+	"cmsis_armcc.h"
+	"cmsis_armcc_V6.h"
+	"cmsis_gcc.h"
+	<cmsis_iar.h>
+	<cmsis_ccs.h>
+	<cmsis_csm.h>
+
+1496700503 c:\repos\specializedsolutions\qcm\software\dc2017\src\cmsis\cmsis_armcc.h
+
+1496700503 c:\repos\specializedsolutions\qcm\software\dc2017\src\cmsis\cmsis_armcc_v6.h
+
+1496700503 c:\repos\specializedsolutions\qcm\software\dc2017\src\cmsis\cmsis_gcc.h
+
+1496700503 c:\repos\specializedsolutions\qcm\software\dc2017\src\cmsis\core_cmfunc.h
+	"cmsis_armcc.h"
+	"cmsis_armcc_V6.h"
+	"cmsis_gcc.h"
+	<cmsis_iar.h>
+	<cmsis_ccs.h>
+	<cmsis_csm.h>
+
+1496700503 c:\repos\specializedsolutions\qcm\software\dc2017\src\cmsis\core_cmsimd.h
+	"cmsis_armcc.h"
+	"cmsis_armcc_V6.h"
+	"cmsis_gcc.h"
+	<cmsis_iar.h>
+	<cmsis_ccs.h>
+	<cmsis_csm.h>
+
+1496707481 c:\repos\specializedsolutions\qcm\software\dc2017\src\cmsis\system_mk63f12.h
+	<stdint.h>
+
+1496700503 c:\repos\specializedsolutions\qcm\software\dc2017\src\cmsis\mk63f12_features.h
+
+1496707850 c:\repos\specializedsolutions\qcm\software\dc2017\src\drivers\fsl_clock.h
+	"fsl_common.h"
+
+1499881185 c:\repos\specializedsolutions\qcm\software\dc2017\src\accel\accel.h
+	"datatypes.h"
+
+1498249834 c:\repos\specializedsolutions\qcm\software\dc2017\src\source\pin_mux.h
+
+1496707852 c:\repos\specializedsolutions\qcm\software\dc2017\src\drivers\fsl_port.h
+	"fsl_common.h"
+
+1496707851 c:\repos\specializedsolutions\qcm\software\dc2017\src\drivers\fsl_gpio.h
+	"fsl_common.h"
+
+1496707851 c:\repos\specializedsolutions\qcm\software\dc2017\src\drivers\fsl_ftm.h
+	"fsl_common.h"
+
+1496707851 c:\repos\specializedsolutions\qcm\software\dc2017\src\drivers\fsl_i2c.h
+	"fsl_common.h"
+
+1496700501 c:\repos\specializedsolutions\qcm\software\dc2017\src\freertos\freertos.h
+	<stddef.h>
+	<stdint.h>
+	"FreeRTOSConfig.h"
+	"projdefs.h"
+	"portable.h"
+	<reent.h>
+
+1500307003 c:\repos\specializedsolutions\qcm\software\dc2017\src\freertos\freertosconfig.h
+
+1496700501 c:\repos\specializedsolutions\qcm\software\dc2017\src\freertos\projdefs.h
+
+1496700501 c:\repos\specializedsolutions\qcm\software\dc2017\src\freertos\portable.h
+	"deprecated_definitions.h"
+	"portmacro.h"
+	"mpu_wrappers.h"
+
+1496700501 c:\repos\specializedsolutions\qcm\software\dc2017\src\freertos\deprecated_definitions.h
+	"..\..\Source\portable\owatcom\16bitdos\pc\portmacro.h"
+	"..\..\Source\portable\owatcom\16bitdos\flsh186\portmacro.h"
+	"../portable/GCC/ATMega323/portmacro.h"
+	"../portable/IAR/ATMega323/portmacro.h"
+	"../../Source/portable/MPLAB/PIC24_dsPIC/portmacro.h"
+	"../../Source/portable/MPLAB/PIC24_dsPIC/portmacro.h"
+	"../../Source/portable/MPLAB/PIC18F/portmacro.h"
+	"../../Source/portable/MPLAB/PIC32MX/portmacro.h"
+	"libFreeRTOS/Include/portmacro.h"
+	"../../Source/portable/SDCC/Cygnal/portmacro.h"
+	"../../Source/portable/GCC/ARM7_LPC2000/portmacro.h"
+	"portmacro.h"
+	"../../Source/portable/GCC/ARM7_LPC23xx/portmacro.h"
+	"..\..\Source\portable\IAR\MSP430\portmacro.h"
+	"../../Source/portable/GCC/MSP430F449/portmacro.h"
+	"../../Source/portable/Rowley/MSP430F449/portmacro.h"
+	"..\..\Source\portable\RVDS\ARM7_LPC21xx\portmacro.h"
+	"../../Source/portable/GCC/ARM7_AT91SAM7S/portmacro.h"
+	"..\..\Source\portable\IAR\AtmelSAM7S64\portmacro.h"
+	"..\..\Source\portable\IAR\AtmelSAM9XE\portmacro.h"
+	"..\..\Source\portable\IAR\LPC2000\portmacro.h"
+	"..\..\Source\portable\IAR\STR71x\portmacro.h"
+	"..\..\Source\portable\IAR\STR75x\portmacro.h"
+	"..\..\Source\portable\GCC\STR75x\portmacro.h"
+	"..\..\Source\portable\IAR\STR91x\portmacro.h"
+	"../../Source/portable/GCC/H8S2329/portmacro.h"
+	"../../Source/portable/GCC/ARM7_AT91FR40008/portmacro.h"
+	"../../Source/portable/RVDS/ARM_CM3/portmacro.h"
+	"../../Source/portable/GCC/ARM_CM3/portmacro.h"
+	"../../Source/portable/GCC/ARM_CM3/portmacro.h"
+	"../../Source/portable/IAR/ARM_CM3/portmacro.h"
+	"../../Source/portable/IAR/ARM_CM3/portmacro.h"
+	"../../Source/portable/CodeWarrior/HCS12/portmacro.h"
+	"../../Source/portable/GCC/MicroBlaze/portmacro.h"
+	"..\..\Source\portable\Paradigm\Tern_EE\small\portmacro.h"
+	"../../Source/portable/GCC/HCS12/portmacro.h"
+	"../../Source/portable/GCC/MCF5235/portmacro.h"
+	"../../../Source/portable/GCC/ColdFire_V2/portmacro.h"
+	"../../Source/portable/CodeWarrior/ColdFire_V2/portmacro.h"
+	"../../Source/portable/GCC/PPC405_Xilinx/portmacro.h"
+	"../../Source/portable/GCC/PPC440_Xilinx/portmacro.h"
+	"..\..\Source\portable\Softune\MB96340\portmacro.h"
+	"frconfig.h"
+	"..\portable\BCC\16BitDOS\PC\prtmacro.h"
+	"frconfig.h"
+	"..\portable\BCC\16BitDOS\flsh186\prtmacro.h"
+	"portmacro.h"
+	"portmacro.h"
+	"portmacro.h"
+	"portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/78K0R/portmacro.h"
+	"../../Source/portable/IAR/78K0R/portmacro.h"
+
+1496700502 c:\repos\specializedsolutions\qcm\software\dc2017\src\freertos\portmacro.h
+
+1496700501 c:\repos\specializedsolutions\qcm\software\dc2017\src\freertos\mpu_wrappers.h
+
+1496700501 c:\repos\specializedsolutions\qcm\software\dc2017\src\freertos\task.h
+	"list.h"
+
+1496700501 c:\repos\specializedsolutions\qcm\software\dc2017\src\freertos\list.h
+
+1496700501 c:\repos\specializedsolutions\qcm\software\dc2017\src\freertos\semphr.h
+	"queue.h"
+
+1496700501 c:\repos\specializedsolutions\qcm\software\dc2017\src\freertos\queue.h
+
+1496700503 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\cmsis\system_mk63f12.c
+	<stdint.h>
+	"fsl_device_registers.h"
+
+1499402215 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\demos\dc2017\resources\bat_25.c
+	<stdint.h>
+	"resources.h"
+
+1496423137 c:\repos\specializedsolutions\qcm\software\dc2017\src\oled\resources.h
+
+1499402221 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\demos\dc2017\resources\bat_50.c
+	<stdint.h>
+	"resources.h"
+
+1499402224 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\demos\dc2017\resources\bat_75.c
+	<stdint.h>
+	"resources.h"
+
+1499402227 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\demos\dc2017\resources\bat_chrg.c
+	<stdint.h>
+	"resources.h"
+
+1499402231 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\demos\dc2017\resources\bat_empty.c
+	<stdint.h>
+	"resources.h"
+
+1499402235 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\demos\dc2017\resources\bat_full.c
+	<stdint.h>
+	"resources.h"
+
+1500322431 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\demos\eol\eol.c
+	<string.h>
+	"board.h"
+	"pin_mux.h"
+	"clock_config.h"
+	"fsl_debug_console.h"
+	"FreeRTOS.h"
+	"task.h"
+	"queue.h"
+	"timers.h"
+	"led.h"
+	"graphics.h"
+	"oled.h"
+	"resources.h"
+	"accel.h"
+	"stdio_emb.h"
+	"fsl_uart.h"
+	"fsl_sysmpu.h"
+	"pin_mux.h"
+	"fsl_port.h"
+	"fsl_gpio.h"
+	"power.h"
+	"accel.h"
+	"can.h"
+
+1497021169 c:\repos\specializedsolutions\qcm\software\dc2017\src\source\board.h
+
+1496765233 c:\repos\specializedsolutions\qcm\software\dc2017\src\source\clock_config.h
+	"fsl_common.h"
+
+1496700504 c:\repos\specializedsolutions\qcm\software\dc2017\src\utilities\fsl_debug_console.h
+	"fsl_common.h"
+	<stdio.h>
+
+1496700501 c:\repos\specializedsolutions\qcm\software\dc2017\src\freertos\timers.h
+	"task.h"
+
+1496851575 c:\repos\specializedsolutions\qcm\software\dc2017\src\led\led.h
+	"datatypes.h"
+
+1496423136 c:\repos\specializedsolutions\qcm\software\dc2017\src\oled\graphics.h
+	"datatypes.h"
+	"resources.h"
+
+1496778201 c:\repos\specializedsolutions\qcm\software\dc2017\src\oled\oled.h
+	"datatypes.h"
+
+1468521261 c:\repos\specializedsolutions\qcm\software\dc2017\src\utilities\stdio_emb.h
+	"datatypes.h"
+	<stdarg.h>
+
+1496707852 c:\repos\specializedsolutions\qcm\software\dc2017\src\drivers\fsl_uart.h
+	"fsl_common.h"
+
+1496707852 c:\repos\specializedsolutions\qcm\software\dc2017\src\drivers\fsl_sysmpu.h
+	"fsl_common.h"
+
+1496707851 c:\repos\specializedsolutions\qcm\software\dc2017\src\drivers\fsl_flexcan.h
+	"fsl_common.h"
+
+1499399358 c:\repos\specializedsolutions\qcm\software\dc2017\src\power\power.h
+	"board.h"
+
+1496707850 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\drivers\fsl_adc16.c
+	"fsl_adc16.h"
+
+1496707850 c:\repos\specializedsolutions\qcm\software\dc2017\src\drivers\fsl_adc16.h
+	"fsl_common.h"
+
+1496707850 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\drivers\fsl_clock.c
+	"fsl_clock.h"
+
+1496707850 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\drivers\fsl_cmp.c
+	"fsl_cmp.h"
+
+1496707850 c:\repos\specializedsolutions\qcm\software\dc2017\src\drivers\fsl_cmp.h
+	"fsl_common.h"
+
+1496707850 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\drivers\fsl_cmt.c
+	"fsl_cmt.h"
+
+1496707850 c:\repos\specializedsolutions\qcm\software\dc2017\src\drivers\fsl_cmt.h
+	"fsl_common.h"
+
+1496707850 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\drivers\fsl_common.c
+	"fsl_common.h"
+	"fsl_debug_console.h"
+
+1496707850 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\drivers\fsl_crc.c
+	"fsl_crc.h"
+
+1496707850 c:\repos\specializedsolutions\qcm\software\dc2017\src\drivers\fsl_crc.h
+	"fsl_common.h"
+
+1496707850 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\drivers\fsl_dac.c
+	"fsl_dac.h"
+
+1496707850 c:\repos\specializedsolutions\qcm\software\dc2017\src\drivers\fsl_dac.h
+	"fsl_common.h"
+
+1496707851 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\drivers\fsl_dmamux.c
+	"fsl_dmamux.h"
+
+1496707851 c:\repos\specializedsolutions\qcm\software\dc2017\src\drivers\fsl_dmamux.h
+	"fsl_common.h"
+
+1496707851 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\drivers\fsl_dspi.c
+	"fsl_dspi.h"
+
+1496707851 c:\repos\specializedsolutions\qcm\software\dc2017\src\drivers\fsl_dspi.h
+	"fsl_common.h"
+
+1496707851 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\drivers\fsl_dspi_edma.c
+	"fsl_dspi_edma.h"
+
+1496707851 c:\repos\specializedsolutions\qcm\software\dc2017\src\drivers\fsl_dspi_edma.h
+	"fsl_dspi.h"
+	"fsl_edma.h"
+
+1496707851 c:\repos\specializedsolutions\qcm\software\dc2017\src\drivers\fsl_edma.h
+	"fsl_common.h"
+
+1496707851 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\drivers\fsl_dspi_freertos.c
+	"fsl_dspi_freertos.h"
+
+1496707851 c:\repos\specializedsolutions\qcm\software\dc2017\src\drivers\fsl_dspi_freertos.h
+	"FreeRTOSConfig.h"
+	"FreeRTOS.h"
+	"portable.h"
+	"semphr.h"
+	"fsl_dspi.h"
+
+1496707851 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\drivers\fsl_edma.c
+	"fsl_edma.h"
+
+1496707851 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\drivers\fsl_enet.c
+	"fsl_enet.h"
+
+1496707851 c:\repos\specializedsolutions\qcm\software\dc2017\src\drivers\fsl_enet.h
+	"fsl_common.h"
+
+1496707851 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\drivers\fsl_ewm.c
+	"fsl_ewm.h"
+
+1496707851 c:\repos\specializedsolutions\qcm\software\dc2017\src\drivers\fsl_ewm.h
+	"fsl_common.h"
+
+1496707851 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\drivers\fsl_flash.c
+	"fsl_flash.h"
+
+1496707851 c:\repos\specializedsolutions\qcm\software\dc2017\src\drivers\fsl_flash.h
+	<assert.h>
+	<string.h>
+	"fsl_device_registers.h"
+	"bootloader_common.h"
+	"fsl_common.h"
+
+1496707851 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\drivers\fsl_flexbus.c
+	"fsl_flexbus.h"
+
+1496707851 c:\repos\specializedsolutions\qcm\software\dc2017\src\drivers\fsl_flexbus.h
+	"fsl_common.h"
+
+1496707851 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\drivers\fsl_flexcan.c
+	"fsl_flexcan.h"
+
+1496707851 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\drivers\fsl_ftm.c
+	"fsl_ftm.h"
+
+1496707851 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\drivers\fsl_gpio.c
+	"fsl_gpio.h"
+
+1496707851 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\drivers\fsl_i2c.c
+	"fsl_i2c.h"
+
+1496707851 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\drivers\fsl_i2c_freertos.c
+	"fsl_i2c_freertos.h"
+
+1496707851 c:\repos\specializedsolutions\qcm\software\dc2017\src\drivers\fsl_i2c_freertos.h
+	"FreeRTOSConfig.h"
+	"FreeRTOS.h"
+	"portable.h"
+	"semphr.h"
+	"fsl_i2c.h"
+
+1496707851 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\drivers\fsl_llwu.c
+	"fsl_llwu.h"
+
+1496707851 c:\repos\specializedsolutions\qcm\software\dc2017\src\drivers\fsl_llwu.h
+	"fsl_common.h"
+
+1496707851 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\drivers\fsl_lptmr.c
+	"fsl_lptmr.h"
+
+1496707851 c:\repos\specializedsolutions\qcm\software\dc2017\src\drivers\fsl_lptmr.h
+	"fsl_common.h"
+
+1496707851 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\drivers\fsl_pdb.c
+	"fsl_pdb.h"
+
+1496707851 c:\repos\specializedsolutions\qcm\software\dc2017\src\drivers\fsl_pdb.h
+	"fsl_common.h"
+
+1496707851 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\drivers\fsl_pit.c
+	"fsl_pit.h"
+
+1496707852 c:\repos\specializedsolutions\qcm\software\dc2017\src\drivers\fsl_pit.h
+	"fsl_common.h"
+
+1496707852 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\drivers\fsl_pmc.c
+	"fsl_pmc.h"
+
+1496707852 c:\repos\specializedsolutions\qcm\software\dc2017\src\drivers\fsl_pmc.h
+	"fsl_common.h"
+
+1496707852 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\drivers\fsl_rcm.c
+	"fsl_rcm.h"
+
+1496707852 c:\repos\specializedsolutions\qcm\software\dc2017\src\drivers\fsl_rcm.h
+	"fsl_common.h"
+
+1496707852 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\drivers\fsl_rnga.c
+	"fsl_rnga.h"
+
+1496707852 c:\repos\specializedsolutions\qcm\software\dc2017\src\drivers\fsl_rnga.h
+	"fsl_common.h"
+
+1496707852 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\drivers\fsl_rtc.c
+	"fsl_rtc.h"
+
+1496707852 c:\repos\specializedsolutions\qcm\software\dc2017\src\drivers\fsl_rtc.h
+	"fsl_common.h"
+
+1496707852 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\drivers\fsl_sai.c
+	"fsl_sai.h"
+
+1496707852 c:\repos\specializedsolutions\qcm\software\dc2017\src\drivers\fsl_sai.h
+	"fsl_common.h"
+
+1496707852 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\drivers\fsl_sdhc.c
+	"fsl_sdhc.h"
+
+1496707852 c:\repos\specializedsolutions\qcm\software\dc2017\src\drivers\fsl_sdhc.h
+	"fsl_common.h"
+
+1496707852 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\drivers\fsl_sim.c
+	"fsl_sim.h"
+
+1496707852 c:\repos\specializedsolutions\qcm\software\dc2017\src\drivers\fsl_sim.h
+	"fsl_common.h"
+
+1496707852 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\drivers\fsl_smc.c
+	"fsl_smc.h"
+	"fsl_flash.h"
+
+1496707852 c:\repos\specializedsolutions\qcm\software\dc2017\src\drivers\fsl_smc.h
+	"fsl_common.h"
+
+1496707852 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\drivers\fsl_sysmpu.c
+	"fsl_sysmpu.h"
+
+1496707852 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\drivers\fsl_uart.c
+	"fsl_uart.h"
+
+1496707852 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\drivers\fsl_uart_freertos.c
+	"fsl_uart_freertos.h"
+	<FreeRTOS.h>
+	<event_groups.h>
+	<semphr.h>
+
+1496707852 c:\repos\specializedsolutions\qcm\software\dc2017\src\drivers\fsl_uart_freertos.h
+	"FreeRTOSConfig.h"
+	"fsl_uart.h"
+	<FreeRTOS.h>
+	<event_groups.h>
+	<semphr.h>
+
+1496700501 c:\repos\specializedsolutions\qcm\software\dc2017\src\freertos\event_groups.h
+	"timers.h"
+
+1496707852 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\drivers\fsl_vref.c
+	"fsl_vref.h"
+
+1496707852 c:\repos\specializedsolutions\qcm\software\dc2017\src\drivers\fsl_vref.h
+	"fsl_common.h"
+
+1496707852 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\drivers\fsl_wdog.c
+	"fsl_wdog.h"
+
+1496707852 c:\repos\specializedsolutions\qcm\software\dc2017\src\drivers\fsl_wdog.h
+	"fsl_common.h"
+
+1496872871 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\enet\fsl_phy.c
+	"fsl_phy.h"
+
+1496862149 c:\repos\specializedsolutions\qcm\software\dc2017\src\enet\fsl_phy.h
+	"fsl_enet.h"
+
+1496868275 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\enet\lwip_tcpecho_freertos.c
+	"lwip/opt.h"
+	"ping/ping.h"
+	"lwip/tcpip.h"
+	"netif/ethernet.h"
+	"ethernetif.h"
+	"board.h"
+	"fsl_device_registers.h"
+	"pin_mux.h"
+	"clock_config.h"
+	"fsl_gpio.h"
+	"pin_mux.h"
+
+1499968197 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\lwip\opt.h
+	"lwipopts.h"
+	"lwip/debug.h"
+
+1499972521 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\port\lwipopts.h
+
+1496761855 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\lwip\debug.h
+	"lwip/arch.h"
+	"lwip/opt.h"
+
+1496761855 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\lwip\arch.h
+	"arch/cc.h"
+	<stdint.h>
+	<inttypes.h>
+
+1499918989 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\port\arch\cc.h
+	"sys_arch.h"
+
+1496761862 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\port\arch\sys_arch.h
+	"fsl_debug_console.h"
+	"lwip/opt.h"
+	"arch/cc.h"
+	"FreeRTOS.h"
+	"task.h"
+	"queue.h"
+	"semphr.h"
+
+1496761861 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\contrib\apps\ping\ping.h
+
+1496761856 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\lwip\tcpip.h
+	"lwip/opt.h"
+	"lwip/err.h"
+	"lwip/timeouts.h"
+	"lwip/netif.h"
+
+1496761855 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\lwip\err.h
+	"lwip/opt.h"
+	"lwip/arch.h"
+
+1496761855 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\lwip\timeouts.h
+	"lwip/opt.h"
+	"lwip/err.h"
+	"lwip/sys.h"
+
+1496761855 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\lwip\sys.h
+	"lwip/opt.h"
+	"lwip/err.h"
+	"arch/sys_arch.h"
+
+1496761856 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\lwip\netif.h
+	"lwip/opt.h"
+	"lwip/err.h"
+	"lwip/ip_addr.h"
+	"lwip/def.h"
+	"lwip/pbuf.h"
+	"lwip/stats.h"
+
+1496761855 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\lwip\ip_addr.h
+	"lwip/opt.h"
+	"lwip/def.h"
+	"lwip/ip4_addr.h"
+	"lwip/ip6_addr.h"
+
+1496761856 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\lwip\def.h
+	"lwip/arch.h"
+	"lwip/opt.h"
+	"arch/perf.h"
+
+1496761862 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\port\arch\perf.h
+
+1496761856 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\lwip\ip4_addr.h
+	"lwip/opt.h"
+	"lwip/def.h"
+	"arch/bpstruct.h"
+	"arch/epstruct.h"
+	"arch/bpstruct.h"
+	"arch/epstruct.h"
+
+1496761856 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\lwip\ip6_addr.h
+	"lwip/opt.h"
+	"arch/bpstruct.h"
+	"arch/epstruct.h"
+
+1496761856 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\lwip\pbuf.h
+	"lwip/opt.h"
+	"lwip/err.h"
+
+1496761855 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\lwip\stats.h
+	"lwip/opt.h"
+	"lwip/mem.h"
+	"lwip/memp.h"
+
+1496761855 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\lwip\mem.h
+	"lwip/opt.h"
+	<stddef.h>
+
+1496761856 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\lwip\memp.h
+	"lwip/priv/memp_std.h"
+	"lwip/priv/memp_std.h"
+	"lwip/priv/memp_priv.h"
+	"lwip/stats.h"
+
+1496761856 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\lwip\priv\memp_std.h
+	"lwippools.h"
+
+1496761856 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\lwip\priv\memp_priv.h
+	"lwip/opt.h"
+	"lwip/mem.h"
+	"lwip/priv/memp_std.h"
+	"lwip/priv/memp_std.h"
+
+1496761857 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\netif\ethernet.h
+	"lwip/opt.h"
+	"lwip/pbuf.h"
+	"lwip/netif.h"
+	"lwip/prot/ethernet.h"
+
+1496761856 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\lwip\prot\ethernet.h
+	"lwip/arch.h"
+	"arch/bpstruct.h"
+	"arch/epstruct.h"
+	"arch/bpstruct.h"
+	"arch/epstruct.h"
+	"arch/bpstruct.h"
+	"arch/epstruct.h"
+
+1496761862 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\port\ethernetif.h
+	"lwip/err.h"
+	"fsl_enet.h"
+
+1496700500 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\freertos\croutine.c
+	"FreeRTOS.h"
+	"task.h"
+	"croutine.h"
+
+1496700501 c:\repos\specializedsolutions\qcm\software\dc2017\src\freertos\croutine.h
+	"list.h"
+
+1496700501 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\freertos\event_groups.c
+	<stdlib.h>
+	"FreeRTOS.h"
+	"task.h"
+	"timers.h"
+	"event_groups.h"
+
+1496700501 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\freertos\fsl_tickless_lptmr.c
+	"FreeRTOS.h"
+	"task.h"
+	"fsl_tickless_generic.h"
+	"fsl_lptmr.h"
+
+1496700502 c:\repos\specializedsolutions\qcm\software\dc2017\src\freertos\fsl_tickless_generic.h
+
+1496700501 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\freertos\fsl_tickless_systick.c
+	"FreeRTOS.h"
+	"task.h"
+	"fsl_tickless_generic.h"
+
+1496700502 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\freertos\heap_3.c
+	<stdlib.h>
+	"FreeRTOS.h"
+	"task.h"
+
+1496700501 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\freertos\list.c
+	<stdlib.h>
+	"FreeRTOS.h"
+	"list.h"
+
+1496700501 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\freertos\port.c
+	"FreeRTOS.h"
+	"task.h"
+	"fsl_tickless_generic.h"
+
+1496700501 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\freertos\queue.c
+	<stdlib.h>
+	<string.h>
+	"FreeRTOS.h"
+	"task.h"
+	"queue.h"
+	"croutine.h"
+
+1496700501 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\freertos\tasks.c
+	<stdlib.h>
+	<string.h>
+	"FreeRTOS.h"
+	"task.h"
+	"timers.h"
+	"StackMacros.h"
+	<stdio.h>
+	"tasks_test_access_functions.h"
+	"freertos_tasks_c_additions.h"
+
+1496700501 c:\repos\specializedsolutions\qcm\software\dc2017\src\freertos\stackmacros.h
+
+1496700501 c:\repos\specializedsolutions\qcm\software\dc2017\src\freertos\freertos_tasks_c_additions.h
+	<stdint.h>
+
+1496700501 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\freertos\timers.c
+	<stdlib.h>
+	"FreeRTOS.h"
+	"task.h"
+	"queue.h"
+	"timers.h"
+
+1500309606 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\led\led.c
+	"datatypes.h"
+	"cpu.h"
+	"led.h"
+	"pin_mux.h"
+	"fsl_port.h"
+	"fsl_gpio.h"
+	"fsl_ftm.h"
+	"FreeRTOS.h"
+	"task.h"
+
+1500330842 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\contrib\apps\ping\ping.c
+	"lwip/opt.h"
+	"ping.h"
+	"lwip/mem.h"
+	"lwip/raw.h"
+	"lwip/icmp.h"
+	"lwip/netif.h"
+	"lwip/sys.h"
+	"lwip/timeouts.h"
+	"lwip/inet_chksum.h"
+	"lwip/sockets.h"
+	"lwip/inet.h"
+	"led.h"
+	"graphics.h"
+	"resources.h"
+
+1496761856 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\lwip\raw.h
+	"lwip/opt.h"
+	"lwip/pbuf.h"
+	"lwip/def.h"
+	"lwip/ip.h"
+	"lwip/ip_addr.h"
+	"lwip/ip6_addr.h"
+
+1496761855 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\lwip\ip.h
+	"lwip/opt.h"
+	"lwip/def.h"
+	"lwip/pbuf.h"
+	"lwip/ip_addr.h"
+	"lwip/err.h"
+	"lwip/netif.h"
+	"lwip/ip4.h"
+	"lwip/ip6.h"
+	"lwip/prot/ip.h"
+
+1496761855 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\lwip\ip4.h
+	"lwip/opt.h"
+	"lwip/def.h"
+	"lwip/pbuf.h"
+	"lwip/ip4_addr.h"
+	"lwip/err.h"
+	"lwip/netif.h"
+	"lwip/prot/ip4.h"
+
+1496761856 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\lwip\prot\ip4.h
+	"lwip/arch.h"
+	"lwip/ip4_addr.h"
+	"arch/bpstruct.h"
+	"arch/epstruct.h"
+
+1496761855 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\lwip\ip6.h
+	"lwip/opt.h"
+	"lwip/ip6_addr.h"
+	"lwip/prot/ip6.h"
+	"lwip/def.h"
+	"lwip/pbuf.h"
+	"lwip/netif.h"
+	"lwip/err.h"
+
+1496761856 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\lwip\prot\ip6.h
+	"lwip/arch.h"
+	"lwip/ip6_addr.h"
+	"arch/bpstruct.h"
+	"arch/epstruct.h"
+	"arch/bpstruct.h"
+	"arch/epstruct.h"
+	"arch/bpstruct.h"
+	"arch/epstruct.h"
+
+1496761856 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\lwip\prot\ip.h
+	"lwip/arch.h"
+
+1496761855 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\lwip\icmp.h
+	"lwip/opt.h"
+	"lwip/pbuf.h"
+	"lwip/ip_addr.h"
+	"lwip/netif.h"
+	"lwip/prot/icmp.h"
+	"lwip/icmp6.h"
+
+1496761856 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\lwip\prot\icmp.h
+	"lwip/arch.h"
+	"arch/bpstruct.h"
+	"arch/epstruct.h"
+
+1496761855 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\lwip\icmp6.h
+	"lwip/opt.h"
+	"lwip/pbuf.h"
+	"lwip/ip6_addr.h"
+	"lwip/netif.h"
+
+1496761855 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\lwip\inet_chksum.h
+	"lwip/opt.h"
+	"lwip/pbuf.h"
+	"lwip/ip_addr.h"
+
+1496761855 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\lwip\sockets.h
+	"lwip/opt.h"
+	<stddef.h>
+	"lwip/ip_addr.h"
+	"lwip/err.h"
+	"lwip/inet.h"
+	"lwip/errno.h"
+
+1496761855 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\lwip\inet.h
+	"lwip/opt.h"
+	"lwip/def.h"
+	"lwip/ip_addr.h"
+	"lwip/ip6_addr.h"
+
+1496761855 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\lwip\errno.h
+	"lwip/opt.h"
+
+1496869723 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\port\ethernetif.c
+	"lwip/opt.h"
+	"lwip/def.h"
+	"lwip/mem.h"
+	"lwip/pbuf.h"
+	"lwip/stats.h"
+	"lwip/snmp.h"
+	"lwip/ethip6.h"
+	"netif/etharp.h"
+	"netif/ppp/pppoe.h"
+	"lwip/igmp.h"
+	"lwip/mld6.h"
+	"FreeRTOS.h"
+	"event_groups.h"
+	"ethernetif.h"
+	"fsl_enet.h"
+	"fsl_phy.h"
+
+1496761855 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\lwip\snmp.h
+	"lwip/opt.h"
+	"lwip/ip_addr.h"
+
+1496761855 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\lwip\ethip6.h
+	"lwip/opt.h"
+	"lwip/pbuf.h"
+	"lwip/ip6.h"
+	"lwip/ip6_addr.h"
+	"lwip/netif.h"
+
+1496761857 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\netif\etharp.h
+	"lwip/etharp.h"
+	"netif/ethernet.h"
+
+1496761855 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\lwip\etharp.h
+	"lwip/opt.h"
+	"lwip/pbuf.h"
+	"lwip/ip4_addr.h"
+	"lwip/netif.h"
+	"lwip/ip4.h"
+	"lwip/prot/ethernet.h"
+	"lwip/prot/etharp.h"
+
+1496761856 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\lwip\prot\etharp.h
+	"lwip/arch.h"
+	"lwip/prot/ethernet.h"
+	"lwip/ip4_addr.h"
+	"arch/bpstruct.h"
+	"arch/epstruct.h"
+
+1496761858 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\netif\ppp\pppoe.h
+	"netif/ppp/ppp_opts.h"
+	"ppp.h"
+	"lwip/etharp.h"
+	"arch/bpstruct.h"
+	"arch/epstruct.h"
+	"arch/bpstruct.h"
+	"arch/epstruct.h"
+
+1496761858 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\netif\ppp\ppp_opts.h
+	"lwip/opt.h"
+
+1496761858 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\netif\ppp\ppp.h
+	"netif/ppp/ppp_opts.h"
+	"lwip/def.h"
+	"lwip/stats.h"
+	"lwip/mem.h"
+	"lwip/netif.h"
+	"lwip/sys.h"
+	"lwip/timeouts.h"
+	"lwip/ip6_addr.h"
+	"fsm.h"
+	"lcp.h"
+	"ccp.h"
+	"mppe.h"
+	"ipcp.h"
+	"ipv6cp.h"
+	"upap.h"
+	"chap-new.h"
+	"eap.h"
+	"vj.h"
+
+1496761858 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\netif\ppp\fsm.h
+	"netif/ppp/ppp_opts.h"
+	"ppp.h"
+
+1496761857 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\netif\ppp\lcp.h
+	"netif/ppp/ppp_opts.h"
+	"ppp.h"
+
+1496761857 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\netif\ppp\ccp.h
+	"netif/ppp/ppp_opts.h"
+
+1496761858 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\netif\ppp\mppe.h
+	"netif/ppp/ppp_opts.h"
+	"netif/ppp/pppcrypt.h"
+
+1496761858 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\netif\ppp\pppcrypt.h
+	"netif/ppp/ppp_opts.h"
+	"lwip/arch.h"
+	"netif/ppp/polarssl/md4.h"
+	"netif/ppp/polarssl/md5.h"
+	"netif/ppp/polarssl/sha1.h"
+	"netif/ppp/polarssl/des.h"
+	"netif/ppp/polarssl/arc4.h"
+
+1496761858 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\netif\ppp\polarssl\md4.h
+	"netif/ppp/ppp_opts.h"
+
+1496761858 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\netif\ppp\polarssl\md5.h
+	"netif/ppp/ppp_opts.h"
+
+1496761858 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\netif\ppp\polarssl\sha1.h
+	"netif/ppp/ppp_opts.h"
+
+1496761858 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\netif\ppp\polarssl\des.h
+	"netif/ppp/ppp_opts.h"
+
+1496761858 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\netif\ppp\polarssl\arc4.h
+	"netif/ppp/ppp_opts.h"
+
+1496761857 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\netif\ppp\ipcp.h
+	"netif/ppp/ppp_opts.h"
+
+1496761858 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\netif\ppp\ipv6cp.h
+	"netif/ppp/ppp_opts.h"
+	"eui64.h"
+
+1496761858 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\netif\ppp\eui64.h
+	"netif/ppp/ppp_opts.h"
+
+1496761857 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\netif\ppp\upap.h
+	"netif/ppp/ppp_opts.h"
+	"ppp.h"
+
+1496761858 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\netif\ppp\chap-new.h
+	"netif/ppp/ppp_opts.h"
+	"ppp.h"
+
+1496761858 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\netif\ppp\eap.h
+	"netif/ppp/ppp_opts.h"
+	"ppp.h"
+
+1496761858 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\netif\ppp\vj.h
+	"netif/ppp/ppp_opts.h"
+	"lwip/ip.h"
+	"lwip/priv/tcp_priv.h"
+
+1496761856 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\lwip\priv\tcp_priv.h
+	"lwip/opt.h"
+	"lwip/tcp.h"
+	"lwip/mem.h"
+	"lwip/pbuf.h"
+	"lwip/ip.h"
+	"lwip/icmp.h"
+	"lwip/err.h"
+	"lwip/ip6.h"
+	"lwip/ip6_addr.h"
+	"lwip/prot/tcp.h"
+
+1496761855 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\lwip\tcp.h
+	"lwip/opt.h"
+	"lwip/mem.h"
+	"lwip/pbuf.h"
+	"lwip/ip.h"
+	"lwip/icmp.h"
+	"lwip/err.h"
+	"lwip/ip6.h"
+	"lwip/ip6_addr.h"
+
+1496761856 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\lwip\prot\tcp.h
+	"lwip/arch.h"
+	"arch/bpstruct.h"
+	"arch/epstruct.h"
+
+1496761856 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\lwip\igmp.h
+	"lwip/opt.h"
+	"lwip/ip_addr.h"
+	"lwip/netif.h"
+	"lwip/pbuf.h"
+
+1496761856 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\lwip\mld6.h
+	"lwip/opt.h"
+	"lwip/pbuf.h"
+	"lwip/netif.h"
+
+1496761862 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\port\sys_arch.c
+	"arch/sys_arch.h"
+	"lwip/opt.h"
+	"lwip/debug.h"
+	"lwip/def.h"
+	"lwip/sys.h"
+	"lwip/mem.h"
+	"lwip/stats.h"
+	"lwip/init.h"
+
+1496761855 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\lwip\init.h
+	"lwip/opt.h"
+
+1496761858 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\api\api_lib.c
+	"lwip/opt.h"
+	"lwip/api.h"
+	"lwip/memp.h"
+	"lwip/ip.h"
+	"lwip/raw.h"
+	"lwip/udp.h"
+	"lwip/priv/api_msg.h"
+	"lwip/priv/tcp_priv.h"
+	"lwip/priv/tcpip_priv.h"
+	<string.h>
+
+1496761856 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\lwip\api.h
+	"lwip/opt.h"
+	<stddef.h>
+	"lwip/netbuf.h"
+	"lwip/sys.h"
+	"lwip/ip_addr.h"
+	"lwip/err.h"
+
+1496761855 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\lwip\netbuf.h
+	"lwip/opt.h"
+	"lwip/pbuf.h"
+	"lwip/ip_addr.h"
+	"lwip/ip6_addr.h"
+
+1496761856 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\lwip\udp.h
+	"lwip/opt.h"
+	"lwip/pbuf.h"
+	"lwip/netif.h"
+	"lwip/ip_addr.h"
+	"lwip/ip.h"
+	"lwip/ip6_addr.h"
+	"lwip/prot/udp.h"
+
+1496761856 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\lwip\prot\udp.h
+	"lwip/arch.h"
+	"arch/bpstruct.h"
+	"arch/epstruct.h"
+
+1496761856 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\lwip\priv\api_msg.h
+	"lwip/opt.h"
+	<stddef.h>
+	"lwip/ip_addr.h"
+	"lwip/err.h"
+	"lwip/sys.h"
+	"lwip/igmp.h"
+	"lwip/api.h"
+	"lwip/priv/tcpip_priv.h"
+
+1496761856 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\lwip\priv\tcpip_priv.h
+	"lwip/opt.h"
+	"lwip/tcpip.h"
+	"lwip/sys.h"
+	"lwip/timeouts.h"
+
+1496761858 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\api\api_msg.c
+	"lwip/opt.h"
+	"lwip/priv/api_msg.h"
+	"lwip/ip.h"
+	"lwip/udp.h"
+	"lwip/tcp.h"
+	"lwip/raw.h"
+	"lwip/memp.h"
+	"lwip/igmp.h"
+	"lwip/dns.h"
+	"lwip/mld6.h"
+	"lwip/priv/tcpip_priv.h"
+	<string.h>
+
+1496761855 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\lwip\dns.h
+	"lwip/opt.h"
+	"lwip/ip_addr.h"
+
+1496761858 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\api\err.c
+	"lwip/err.h"
+	"lwip/def.h"
+	"lwip/sys.h"
+	"lwip/errno.h"
+
+1496761858 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\api\netbuf.c
+	"lwip/opt.h"
+	"lwip/netbuf.h"
+	"lwip/memp.h"
+	<string.h>
+
+1496761858 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\api\netdb.c
+	"lwip/netdb.h"
+	"lwip/err.h"
+	"lwip/mem.h"
+	"lwip/memp.h"
+	"lwip/ip_addr.h"
+	"lwip/api.h"
+	"lwip/dns.h"
+	<string.h>
+	<stdlib.h>
+
+1496761856 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\lwip\netdb.h
+	"lwip/opt.h"
+	<stddef.h>
+	"lwip/inet.h"
+	"lwip/sockets.h"
+
+1496761858 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\api\netifapi.c
+	"lwip/opt.h"
+	"lwip/netifapi.h"
+	"lwip/memp.h"
+	"lwip/priv/tcpip_priv.h"
+
+1496761855 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\lwip\netifapi.h
+	"lwip/opt.h"
+	"lwip/sys.h"
+	"lwip/netif.h"
+	"lwip/dhcp.h"
+	"lwip/autoip.h"
+	"lwip/priv/tcpip_priv.h"
+
+1496761856 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\lwip\dhcp.h
+	"lwip/opt.h"
+	"lwip/netif.h"
+	"lwip/udp.h"
+
+1496761856 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\lwip\autoip.h
+	"lwip/opt.h"
+	"lwip/netif.h"
+	"lwip/etharp.h"
+
+1496761858 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\api\sockets.c
+	"lwip/opt.h"
+	"lwip/sockets.h"
+	"lwip/api.h"
+	"lwip/sys.h"
+	"lwip/igmp.h"
+	"lwip/inet.h"
+	"lwip/tcp.h"
+	"lwip/raw.h"
+	"lwip/udp.h"
+	"lwip/memp.h"
+	"lwip/pbuf.h"
+	"lwip/priv/tcpip_priv.h"
+	"lwip/inet_chksum.h"
+	<string.h>
+	"api_msg.c"
+	"api_lib.c"
+	"netbuf.c"
+
+1496761858 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\api\api_msg.c
+	"lwip/opt.h"
+	"lwip/priv/api_msg.h"
+	"lwip/ip.h"
+	"lwip/udp.h"
+	"lwip/tcp.h"
+	"lwip/raw.h"
+	"lwip/memp.h"
+	"lwip/igmp.h"
+	"lwip/dns.h"
+	"lwip/mld6.h"
+	"lwip/priv/tcpip_priv.h"
+	<string.h>
+
+1496761858 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\api\api_lib.c
+	"lwip/opt.h"
+	"lwip/api.h"
+	"lwip/memp.h"
+	"lwip/ip.h"
+	"lwip/raw.h"
+	"lwip/udp.h"
+	"lwip/priv/api_msg.h"
+	"lwip/priv/tcp_priv.h"
+	"lwip/priv/tcpip_priv.h"
+	<string.h>
+
+1496761858 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\api\netbuf.c
+	"lwip/opt.h"
+	"lwip/netbuf.h"
+	"lwip/memp.h"
+	<string.h>
+
+1496761858 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\api\tcpip.c
+	"lwip/opt.h"
+	"lwip/priv/tcpip_priv.h"
+	"lwip/sys.h"
+	"lwip/memp.h"
+	"lwip/mem.h"
+	"lwip/init.h"
+	"lwip/ip.h"
+	"lwip/pbuf.h"
+	"lwip/etharp.h"
+	"netif/ethernet.h"
+
+1496761853 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\core\def.c
+	"lwip/opt.h"
+	"lwip/def.h"
+	<string.h>
+
+1496761853 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\core\dns.c
+	"lwip/opt.h"
+	"lwip/def.h"
+	"lwip/udp.h"
+	"lwip/mem.h"
+	"lwip/memp.h"
+	"lwip/dns.h"
+	"lwip/prot/dns.h"
+	<string.h>
+
+1496761856 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\lwip\prot\dns.h
+	"lwip/arch.h"
+	"arch/bpstruct.h"
+	"arch/epstruct.h"
+
+1496761853 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\core\inet_chksum.c
+	"lwip/opt.h"
+	"lwip/inet_chksum.h"
+	"lwip/def.h"
+	"lwip/ip_addr.h"
+	<stddef.h>
+	<string.h>
+
+1496761853 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\core\init.c
+	"lwip/opt.h"
+	"lwip/init.h"
+	"lwip/stats.h"
+	"lwip/sys.h"
+	"lwip/mem.h"
+	"lwip/memp.h"
+	"lwip/pbuf.h"
+	"lwip/netif.h"
+	"lwip/sockets.h"
+	"lwip/ip.h"
+	"lwip/raw.h"
+	"lwip/udp.h"
+	"lwip/priv/tcp_priv.h"
+	"lwip/igmp.h"
+	"lwip/dns.h"
+	"lwip/timeouts.h"
+	"lwip/etharp.h"
+	"lwip/ip6.h"
+	"lwip/nd6.h"
+	"lwip/mld6.h"
+	"lwip/api.h"
+	"netif/ppp/ppp_opts.h"
+	"netif/ppp/ppp_impl.h"
+	"arch/bpstruct.h"
+	"arch/epstruct.h"
+
+1496761855 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\lwip\nd6.h
+	"lwip/opt.h"
+	"lwip/pbuf.h"
+	"lwip/ip6.h"
+	"lwip/ip6_addr.h"
+	"lwip/netif.h"
+
+1496761858 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\netif\ppp\ppp_impl.h
+	"netif/ppp/ppp_opts.h"
+	"ppp_settings.h"
+	<stdio.h>
+	<stdarg.h>
+	<string.h>
+	<stdlib.h>
+	"lwip/netif.h"
+	"lwip/def.h"
+	"lwip/timeouts.h"
+	"ppp.h"
+	"pppdebug.h"
+
+1496761858 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\netif\ppp\pppdebug.h
+	"netif/ppp/ppp_opts.h"
+
+1496761853 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\core\ip.c
+	"lwip/opt.h"
+	"lwip/ip_addr.h"
+	"lwip/ip.h"
+
+1496761854 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\core\ipv4\autoip.c
+	"lwip/opt.h"
+	"lwip/mem.h"
+	"lwip/ip_addr.h"
+	"lwip/netif.h"
+	"lwip/autoip.h"
+	"lwip/etharp.h"
+	"lwip/prot/autoip.h"
+	<stdlib.h>
+	<string.h>
+
+1496761856 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\lwip\prot\autoip.h
+
+1496761854 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\core\ipv4\dhcp.c
+	"lwip/opt.h"
+	"lwip/stats.h"
+	"lwip/mem.h"
+	"lwip/udp.h"
+	"lwip/ip_addr.h"
+	"lwip/netif.h"
+	"lwip/def.h"
+	"lwip/dhcp.h"
+	"lwip/autoip.h"
+	"lwip/dns.h"
+	"lwip/etharp.h"
+	"lwip/prot/dhcp.h"
+	<string.h>
+
+1496761857 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\lwip\prot\dhcp.h
+	"lwip/opt.h"
+	"arch/bpstruct.h"
+	"arch/epstruct.h"
+
+1496761854 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\core\ipv4\etharp.c
+	"lwip/opt.h"
+	"lwip/etharp.h"
+	"lwip/stats.h"
+	"lwip/snmp.h"
+	"lwip/dhcp.h"
+	"lwip/autoip.h"
+	"netif/ethernet.h"
+	<string.h>
+
+1496761854 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\core\ipv4\icmp.c
+	"lwip/opt.h"
+	"lwip/icmp.h"
+	"lwip/inet_chksum.h"
+	"lwip/ip.h"
+	"lwip/def.h"
+	"lwip/stats.h"
+	<string.h>
+
+1496761854 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\core\ipv4\igmp.c
+	"lwip/opt.h"
+	"lwip/igmp.h"
+	"lwip/debug.h"
+	"lwip/def.h"
+	"lwip/mem.h"
+	"lwip/ip.h"
+	"lwip/inet_chksum.h"
+	"lwip/netif.h"
+	"lwip/stats.h"
+	"lwip/prot/igmp.h"
+	"string.h"
+
+1496761857 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\lwip\prot\igmp.h
+	"lwip/arch.h"
+	"lwip/ip4_addr.h"
+	"arch/bpstruct.h"
+	"arch/epstruct.h"
+
+1496761854 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\core\ipv4\ip4.c
+	"lwip/opt.h"
+	"lwip/ip.h"
+	"lwip/def.h"
+	"lwip/mem.h"
+	"lwip/ip4_frag.h"
+	"lwip/inet_chksum.h"
+	"lwip/netif.h"
+	"lwip/icmp.h"
+	"lwip/igmp.h"
+	"lwip/raw.h"
+	"lwip/udp.h"
+	"lwip/priv/tcp_priv.h"
+	"lwip/autoip.h"
+	"lwip/stats.h"
+	"lwip/prot/dhcp.h"
+	<string.h>
+
+1496761856 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\lwip\ip4_frag.h
+	"lwip/opt.h"
+	"lwip/err.h"
+	"lwip/pbuf.h"
+	"lwip/netif.h"
+	"lwip/ip_addr.h"
+	"lwip/ip.h"
+
+1496761854 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\core\ipv4\ip4_addr.c
+	"lwip/opt.h"
+	"lwip/ip_addr.h"
+	"lwip/netif.h"
+
+1496761854 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\core\ipv4\ip4_frag.c
+	"lwip/opt.h"
+	"lwip/ip4_frag.h"
+	"lwip/def.h"
+	"lwip/inet_chksum.h"
+	"lwip/netif.h"
+	"lwip/stats.h"
+	"lwip/icmp.h"
+	<string.h>
+	"arch/bpstruct.h"
+	"arch/epstruct.h"
+
+1496761853 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\core\ipv6\dhcp6.c
+	"lwip/opt.h"
+	"lwip/ip6_addr.h"
+	"lwip/def.h"
+
+1496761853 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\core\ipv6\ethip6.c
+	"lwip/opt.h"
+	"lwip/ethip6.h"
+	"lwip/nd6.h"
+	"lwip/pbuf.h"
+	"lwip/ip6.h"
+	"lwip/ip6_addr.h"
+	"lwip/inet_chksum.h"
+	"lwip/netif.h"
+	"lwip/icmp6.h"
+	"lwip/prot/ethernet.h"
+	"netif/ethernet.h"
+	<string.h>
+
+1496761854 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\core\ipv6\icmp6.c
+	"lwip/opt.h"
+	"lwip/icmp6.h"
+	"lwip/prot/icmp6.h"
+	"lwip/ip6.h"
+	"lwip/ip6_addr.h"
+	"lwip/inet_chksum.h"
+	"lwip/pbuf.h"
+	"lwip/netif.h"
+	"lwip/nd6.h"
+	"lwip/mld6.h"
+	"lwip/ip.h"
+	"lwip/stats.h"
+	<string.h>
+
+1496761856 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\lwip\prot\icmp6.h
+	"lwip/arch.h"
+	"arch/bpstruct.h"
+	"arch/epstruct.h"
+	"arch/bpstruct.h"
+	"arch/epstruct.h"
+
+1496761854 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\core\ipv6\inet6.c
+	"lwip/opt.h"
+	"lwip/def.h"
+	"lwip/inet.h"
+
+1496761854 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\core\ipv6\ip6.c
+	"lwip/opt.h"
+	"lwip/def.h"
+	"lwip/mem.h"
+	"lwip/netif.h"
+	"lwip/ip.h"
+	"lwip/ip6.h"
+	"lwip/ip6_addr.h"
+	"lwip/ip6_frag.h"
+	"lwip/icmp6.h"
+	"lwip/raw.h"
+	"lwip/udp.h"
+	"lwip/priv/tcp_priv.h"
+	"lwip/dhcp6.h"
+	"lwip/nd6.h"
+	"lwip/mld6.h"
+	"lwip/debug.h"
+	"lwip/stats.h"
+
+1496761856 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\lwip\ip6_frag.h
+	"lwip/opt.h"
+	"lwip/pbuf.h"
+	"lwip/ip6_addr.h"
+	"lwip/ip6.h"
+	"lwip/netif.h"
+
+1496761856 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\lwip\dhcp6.h
+	"lwip/opt.h"
+
+1496761854 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\core\ipv6\ip6_addr.c
+	"lwip/opt.h"
+	"lwip/ip_addr.h"
+	"lwip/def.h"
+
+1496761854 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\core\ipv6\ip6_frag.c
+	"lwip/opt.h"
+	"lwip/ip6_frag.h"
+	"lwip/ip6.h"
+	"lwip/icmp6.h"
+	"lwip/nd6.h"
+	"lwip/ip.h"
+	"lwip/pbuf.h"
+	"lwip/memp.h"
+	"lwip/stats.h"
+	<string.h>
+	"arch/bpstruct.h"
+	"arch/epstruct.h"
+
+1496761854 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\core\ipv6\mld6.c
+	"lwip/opt.h"
+	"lwip/mld6.h"
+	"lwip/prot/mld6.h"
+	"lwip/icmp6.h"
+	"lwip/ip6.h"
+	"lwip/ip6_addr.h"
+	"lwip/ip.h"
+	"lwip/inet_chksum.h"
+	"lwip/pbuf.h"
+	"lwip/netif.h"
+	"lwip/memp.h"
+	"lwip/stats.h"
+	<string.h>
+
+1496761856 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\lwip\prot\mld6.h
+	"lwip/arch.h"
+	"lwip/ip6_addr.h"
+	"arch/bpstruct.h"
+	"arch/epstruct.h"
+
+1496761854 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\core\ipv6\nd6.c
+	"lwip/opt.h"
+	"lwip/nd6.h"
+	"lwip/prot/nd6.h"
+	"lwip/prot/icmp6.h"
+	"lwip/pbuf.h"
+	"lwip/mem.h"
+	"lwip/memp.h"
+	"lwip/ip6.h"
+	"lwip/ip6_addr.h"
+	"lwip/inet_chksum.h"
+	"lwip/netif.h"
+	"lwip/icmp6.h"
+	"lwip/mld6.h"
+	"lwip/ip.h"
+	"lwip/stats.h"
+	<string.h>
+
+1496761856 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\lwip\prot\nd6.h
+	"lwip/arch.h"
+	"lwip/ip6_addr.h"
+	"arch/bpstruct.h"
+	"arch/epstruct.h"
+	"arch/bpstruct.h"
+	"arch/epstruct.h"
+	"arch/bpstruct.h"
+	"arch/epstruct.h"
+	"arch/bpstruct.h"
+	"arch/epstruct.h"
+	"arch/bpstruct.h"
+	"arch/epstruct.h"
+	"arch/bpstruct.h"
+	"arch/epstruct.h"
+	"arch/bpstruct.h"
+	"arch/epstruct.h"
+	"arch/bpstruct.h"
+	"arch/epstruct.h"
+	"arch/bpstruct.h"
+	"arch/epstruct.h"
+	"arch/bpstruct.h"
+	"arch/epstruct.h"
+
+1496761853 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\core\mem.c
+	"lwip/opt.h"
+	"lwip/mem.h"
+	"lwip/def.h"
+	"lwip/sys.h"
+	"lwip/stats.h"
+	"lwip/err.h"
+	<string.h>
+	<stdlib.h>
+
+1496761853 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\core\memp.c
+	"lwip/opt.h"
+	"lwip/memp.h"
+	"lwip/sys.h"
+	"lwip/stats.h"
+	<string.h>
+	"lwip/pbuf.h"
+	"lwip/raw.h"
+	"lwip/udp.h"
+	"lwip/tcp.h"
+	"lwip/priv/tcp_priv.h"
+	"lwip/ip4_frag.h"
+	"lwip/netbuf.h"
+	"lwip/api.h"
+	"lwip/priv/tcpip_priv.h"
+	"lwip/priv/api_msg.h"
+	"lwip/sockets.h"
+	"lwip/netifapi.h"
+	"lwip/etharp.h"
+	"lwip/igmp.h"
+	"lwip/timeouts.h"
+	"netif/ppp/ppp_opts.h"
+	"lwip/netdb.h"
+	"lwip/dns.h"
+	"lwip/nd6.h"
+	"lwip/ip6_frag.h"
+	"lwip/mld6.h"
+	"lwip/priv/memp_std.h"
+	"lwip/priv/memp_std.h"
+
+1496761853 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\core\netif.c
+	"lwip/opt.h"
+	<string.h>
+	"lwip/def.h"
+	"lwip/ip_addr.h"
+	"lwip/ip6_addr.h"
+	"lwip/netif.h"
+	"lwip/priv/tcp_priv.h"
+	"lwip/udp.h"
+	"lwip/raw.h"
+	"lwip/snmp.h"
+	"lwip/igmp.h"
+	"lwip/etharp.h"
+	"lwip/stats.h"
+	"lwip/sys.h"
+	"lwip/ip.h"
+	"lwip/tcpip.h"
+	"netif/ethernet.h"
+	"lwip/autoip.h"
+	"lwip/dhcp.h"
+	"lwip/dhcp6.h"
+	"lwip/mld6.h"
+	"lwip/nd6.h"
+
+1496761853 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\core\pbuf.c
+	"lwip/opt.h"
+	"lwip/stats.h"
+	"lwip/def.h"
+	"lwip/mem.h"
+	"lwip/memp.h"
+	"lwip/pbuf.h"
+	"lwip/sys.h"
+	"lwip/priv/tcp_priv.h"
+	"lwip/inet_chksum.h"
+	<string.h>
+	"lwip/tcpip.h"
+
+1496761853 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\core\raw.c
+	"lwip/opt.h"
+	"lwip/def.h"
+	"lwip/memp.h"
+	"lwip/ip_addr.h"
+	"lwip/netif.h"
+	"lwip/raw.h"
+	"lwip/stats.h"
+	"lwip/ip6.h"
+	"lwip/ip6_addr.h"
+	"lwip/inet_chksum.h"
+	<string.h>
+
+1496761853 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\core\stats.c
+	"lwip/opt.h"
+	"lwip/def.h"
+	"lwip/stats.h"
+	"lwip/mem.h"
+	"lwip/debug.h"
+	<string.h>
+
+1496761853 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\core\sys.c
+	"lwip/opt.h"
+	"lwip/sys.h"
+
+1496761853 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\core\tcp.c
+	"lwip/opt.h"
+	"lwip/def.h"
+	"lwip/mem.h"
+	"lwip/memp.h"
+	"lwip/tcp.h"
+	"lwip/priv/tcp_priv.h"
+	"lwip/debug.h"
+	"lwip/stats.h"
+	"lwip/ip6.h"
+	"lwip/ip6_addr.h"
+	"lwip/nd6.h"
+	<string.h>
+
+1496761853 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\core\tcp_in.c
+	"lwip/opt.h"
+	"lwip/priv/tcp_priv.h"
+	"lwip/def.h"
+	"lwip/ip_addr.h"
+	"lwip/netif.h"
+	"lwip/mem.h"
+	"lwip/memp.h"
+	"lwip/inet_chksum.h"
+	"lwip/stats.h"
+	"lwip/ip6.h"
+	"lwip/ip6_addr.h"
+	"lwip/nd6.h"
+
+1496761853 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\core\tcp_out.c
+	"lwip/opt.h"
+	"lwip/priv/tcp_priv.h"
+	"lwip/def.h"
+	"lwip/mem.h"
+	"lwip/memp.h"
+	"lwip/ip_addr.h"
+	"lwip/netif.h"
+	"lwip/inet_chksum.h"
+	"lwip/stats.h"
+	"lwip/ip6.h"
+	"lwip/ip6_addr.h"
+	"lwip/sys.h"
+	<string.h>
+
+1496761853 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\core\timeouts.c
+	"lwip/opt.h"
+	"lwip/timeouts.h"
+	"lwip/priv/tcp_priv.h"
+	"lwip/def.h"
+	"lwip/memp.h"
+	"lwip/priv/tcpip_priv.h"
+	"lwip/ip4_frag.h"
+	"lwip/etharp.h"
+	"lwip/dhcp.h"
+	"lwip/autoip.h"
+	"lwip/igmp.h"
+	"lwip/dns.h"
+	"lwip/nd6.h"
+	"lwip/ip6_frag.h"
+	"lwip/mld6.h"
+	"lwip/sys.h"
+	"lwip/pbuf.h"
+
+1496761853 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\core\udp.c
+	"lwip/opt.h"
+	"lwip/udp.h"
+	"lwip/def.h"
+	"lwip/memp.h"
+	"lwip/inet_chksum.h"
+	"lwip/ip_addr.h"
+	"lwip/ip6.h"
+	"lwip/ip6_addr.h"
+	"lwip/netif.h"
+	"lwip/icmp.h"
+	"lwip/icmp6.h"
+	"lwip/stats.h"
+	"lwip/snmp.h"
+	"lwip/dhcp.h"
+	<string.h>
+
+1496761854 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\netif\ethernet.c
+	"lwip/opt.h"
+	"netif/ethernet.h"
+	"lwip/def.h"
+	"lwip/stats.h"
+	"lwip/etharp.h"
+	"lwip/ip.h"
+	"lwip/snmp.h"
+	<string.h>
+	"netif/ppp/ppp_opts.h"
+	"netif/ppp/pppoe.h"
+
+1496761854 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\netif\lowpan6.c
+	"netif/lowpan6.h"
+	"lwip/ip.h"
+	"lwip/pbuf.h"
+	"lwip/ip_addr.h"
+	"lwip/netif.h"
+	"lwip/nd6.h"
+	"lwip/mem.h"
+	"lwip/udp.h"
+	"lwip/tcpip.h"
+	"lwip/snmp.h"
+	<string.h>
+
+1496761857 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\netif\lowpan6.h
+	"netif/lowpan6_opts.h"
+	"lwip/pbuf.h"
+	"lwip/ip.h"
+	"lwip/ip_addr.h"
+	"lwip/netif.h"
+
+1496761857 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\netif\lowpan6_opts.h
+	"lwip/opt.h"
+
+1496761854 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\netif\ppp\auth.c
+	"netif/ppp/ppp_opts.h"
+	<stdio.h>
+	<stddef.h>
+	<stdlib.h>
+	<unistd.h>
+	<errno.h>
+	<pwd.h>
+	<grp.h>
+	<string.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<sys/socket.h>
+	<utmp.h>
+	<fcntl.h>
+	<lastlog.h>
+	<netdb.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<shadow.h>
+	<time.h>
+	"netif/ppp/ppp_impl.h"
+	"netif/ppp/fsm.h"
+	"netif/ppp/lcp.h"
+	"netif/ppp/ccp.h"
+	"netif/ppp/ecp.h"
+	"netif/ppp/ipcp.h"
+	"netif/ppp/upap.h"
+	"netif/ppp/chap-new.h"
+	"netif/ppp/eap.h"
+	"netif/ppp/cbcp.h"
+	"session.h"
+
+1496761858 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\posix\sys\socket.h
+	"lwip/sockets.h"
+
+1496761858 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\netif\ppp\ecp.h
+	"netif/ppp/ppp_opts.h"
+
+1496761854 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\netif\ppp\ccp.c
+	"netif/ppp/ppp_opts.h"
+	<stdlib.h>
+	<string.h>
+	"netif/ppp/ppp_impl.h"
+	"netif/ppp/fsm.h"
+	"netif/ppp/ccp.h"
+	"netif/ppp/lcp.h"
+	"netif/ppp/mppe.h"
+
+1496761855 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\netif\ppp\chap-md5.c
+	"netif/ppp/ppp_opts.h"
+	<stdlib.h>
+	<string.h>
+	"netif/ppp/ppp_impl.h"
+	"netif/ppp/chap-new.h"
+	"netif/ppp/chap-md5.h"
+	"netif/ppp/magic.h"
+	"netif/ppp/pppcrypt.h"
+
+1496761857 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\netif\ppp\chap-md5.h
+	"netif/ppp/ppp_opts.h"
+
+1496761858 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\netif\ppp\magic.h
+	"netif/ppp/ppp_opts.h"
+
+1496761854 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\netif\ppp\chap-new.c
+	"netif/ppp/ppp_opts.h"
+	<stdlib.h>
+	<string.h>
+	"netif/ppp/ppp_impl.h"
+	"session.h"
+	"netif/ppp/chap-new.h"
+	"netif/ppp/chap-md5.h"
+	"netif/ppp/chap_ms.h"
+	"netif/ppp/magic.h"
+
+1496761857 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\netif\ppp\chap_ms.h
+	"netif/ppp/ppp_opts.h"
+
+1496761855 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\netif\ppp\chap_ms.c
+	"netif/ppp/ppp_opts.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<sys/types.h>
+	<sys/time.h>
+	<unistd.h>
+	"netif/ppp/ppp_impl.h"
+	"netif/ppp/chap-new.h"
+	"netif/ppp/chap_ms.h"
+	"netif/ppp/pppcrypt.h"
+	"netif/ppp/magic.h"
+	"netif/ppp/mppe.h"
+	"netif/ppp/fsm.h"
+	"netif/ppp/ccp.h"
+
+1496761855 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\netif\ppp\demand.c
+	"netif/ppp/ppp_opts.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<errno.h>
+	<fcntl.h>
+	<netdb.h>
+	<unistd.h>
+	<syslog.h>
+	<sys/param.h>
+	<sys/types.h>
+	<sys/wait.h>
+	<sys/time.h>
+	<sys/resource.h>
+	<sys/stat.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<pcap-bpf.h>
+	"netif/ppp/ppp_impl.h"
+	"netif/ppp/fsm.h"
+	"netif/ppp/ipcp.h"
+	"netif/ppp/lcp.h"
+
+1496761854 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\netif\ppp\eap.c
+	"netif/ppp/ppp_opts.h"
+	"netif/ppp/ppp_impl.h"
+	"netif/ppp/eap.h"
+	"netif/ppp/magic.h"
+	"netif/ppp/pppcrypt.h"
+	<t_pwd.h>
+	<t_server.h>
+	<t_client.h>
+
+1496761855 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\netif\ppp\eui64.c
+	"netif/ppp/ppp_opts.h"
+	"netif/ppp/ppp_impl.h"
+	"netif/ppp/eui64.h"
+
+1496761854 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\netif\ppp\fsm.c
+	"netif/ppp/ppp_opts.h"
+	<stdio.h>
+	<string.h>
+	<sys/types.h>
+	"netif/ppp/ppp_impl.h"
+	"netif/ppp/fsm.h"
+
+1496761854 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\netif\ppp\ipcp.c
+	"netif/ppp/ppp_opts.h"
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<netdb.h>
+	<sys/param.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	"netif/ppp/ppp_impl.h"
+	"netif/ppp/fsm.h"
+	"netif/ppp/ipcp.h"
+
+1496761854 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\netif\ppp\ipv6cp.c
+	"netif/ppp/ppp_opts.h"
+	<stdio.h>
+	<string.h>
+	<unistd.h>
+	<netdb.h>
+	<sys/param.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	"netif/ppp/ppp_impl.h"
+	"netif/ppp/fsm.h"
+	"netif/ppp/ipcp.h"
+	"netif/ppp/ipv6cp.h"
+	"netif/ppp/magic.h"
+
+1496761855 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\netif\ppp\lcp.c
+	"netif/ppp/ppp_opts.h"
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"netif/ppp/ppp_impl.h"
+	"netif/ppp/fsm.h"
+	"netif/ppp/lcp.h"
+	"netif/ppp/chap-new.h"
+	"netif/ppp/magic.h"
+
+1496761854 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\netif\ppp\lwip_ecp.c
+	"netif/ppp/ppp_opts.h"
+	<string.h>
+	"netif/ppp/ppp_impl.h"
+	"netif/ppp/fsm.h"
+	"netif/ppp/ecp.h"
+
+1496761854 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\netif\ppp\magic.c
+	"netif/ppp/ppp_opts.h"
+	"netif/ppp/ppp_impl.h"
+	"netif/ppp/magic.h"
+	"netif/ppp/pppcrypt.h"
+
+1496761854 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\netif\ppp\mppe.c
+	"netif/ppp/ppp_opts.h"
+	<string.h>
+	"lwip/err.h"
+	"netif/ppp/ppp_impl.h"
+	"netif/ppp/ccp.h"
+	"netif/ppp/mppe.h"
+	"netif/ppp/pppdebug.h"
+	"netif/ppp/pppcrypt.h"
+
+1496761854 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\netif\ppp\multilink.c
+	"netif/ppp/ppp_opts.h"
+	<string.h>
+	<ctype.h>
+	<stdlib.h>
+	<netdb.h>
+	<errno.h>
+	<signal.h>
+	<netinet/in.h>
+	<unistd.h>
+	"netif/ppp/ppp_impl.h"
+	"netif/ppp/fsm.h"
+	"netif/ppp/lcp.h"
+	"netif/ppp/tdb.h"
+
+1496761854 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\netif\ppp\ppp.c
+	"netif/ppp/ppp_opts.h"
+	"lwip/pbuf.h"
+	"lwip/stats.h"
+	"lwip/sys.h"
+	"lwip/tcpip.h"
+	"lwip/api.h"
+	"lwip/snmp.h"
+	"lwip/ip4.h"
+	"lwip/ip6.h"
+	"lwip/dns.h"
+	"netif/ppp/ppp_impl.h"
+	"netif/ppp/pppos.h"
+	"netif/ppp/fsm.h"
+	"netif/ppp/lcp.h"
+	"netif/ppp/magic.h"
+	"netif/ppp/upap.h"
+	"netif/ppp/chap-new.h"
+	"netif/ppp/eap.h"
+	"netif/ppp/ccp.h"
+	"netif/ppp/mppe.h"
+	"netif/ppp/ecp.h"
+	"netif/ppp/vj.h"
+	"netif/ppp/ipcp.h"
+	"netif/ppp/ipv6cp.h"
+
+1496761857 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\netif\ppp\pppos.h
+	"netif/ppp/ppp_opts.h"
+	"lwip/sys.h"
+	"ppp.h"
+	"vj.h"
+
+1496761854 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\netif\ppp\pppapi.c
+	"netif/ppp/ppp_opts.h"
+	"netif/ppp/pppapi.h"
+	"lwip/priv/tcpip_priv.h"
+	"netif/ppp/pppoe.h"
+	"netif/ppp/pppol2tp.h"
+	"netif/ppp/pppos.h"
+
+1496761857 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\netif\ppp\pppapi.h
+	"netif/ppp/ppp_opts.h"
+	"lwip/sys.h"
+	"lwip/netif.h"
+	"lwip/priv/tcpip_priv.h"
+	"netif/ppp/ppp.h"
+	"netif/ppp/pppos.h"
+
+1496761857 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\netif\ppp\pppol2tp.h
+	"netif/ppp/ppp_opts.h"
+	"ppp.h"
+
+1496761855 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\netif\ppp\pppcrypt.c
+	"netif/ppp/ppp_opts.h"
+	"netif/ppp/ppp_impl.h"
+	"netif/ppp/pppcrypt.h"
+
+1496761854 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\netif\ppp\pppoe.c
+	"netif/ppp/ppp_opts.h"
+	<string.h>
+	<stdio.h>
+	"lwip/timeouts.h"
+	"lwip/memp.h"
+	"lwip/stats.h"
+	"lwip/snmp.h"
+	"netif/ethernet.h"
+	"netif/ppp/ppp_impl.h"
+	"netif/ppp/lcp.h"
+	"netif/ppp/ipcp.h"
+	"netif/ppp/pppoe.h"
+
+1496761854 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\netif\ppp\pppol2tp.c
+	"netif/ppp/ppp_opts.h"
+	"lwip/err.h"
+	"lwip/memp.h"
+	"lwip/netif.h"
+	"lwip/udp.h"
+	"lwip/snmp.h"
+	"netif/ppp/ppp_impl.h"
+	"netif/ppp/lcp.h"
+	"netif/ppp/ipcp.h"
+	"netif/ppp/pppol2tp.h"
+	"netif/ppp/pppcrypt.h"
+	"netif/ppp/magic.h"
+
+1496761854 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\netif\ppp\pppos.c
+	"netif/ppp/ppp_opts.h"
+	<string.h>
+	<stddef.h>
+	"lwip/err.h"
+	"lwip/pbuf.h"
+	"lwip/sys.h"
+	"lwip/memp.h"
+	"lwip/netif.h"
+	"lwip/snmp.h"
+	"lwip/priv/tcpip_priv.h"
+	"lwip/api.h"
+	"lwip/ip4.h"
+	"netif/ppp/ppp_impl.h"
+	"netif/ppp/pppos.h"
+	"netif/ppp/vj.h"
+	"arch/bpstruct.h"
+	"arch/epstruct.h"
+
+1496761854 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\netif\ppp\upap.c
+	"netif/ppp/ppp_opts.h"
+	<stdio.h>
+	<string.h>
+	"netif/ppp/ppp_impl.h"
+	"netif/ppp/upap.h"
+
+1496761855 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\netif\ppp\utils.c
+	"netif/ppp/ppp_opts.h"
+	<stdio.h>
+	<ctype.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+	<signal.h>
+	<errno.h>
+	<fcntl.h>
+	<syslog.h>
+	<netdb.h>
+	<time.h>
+	<utmp.h>
+	<pwd.h>
+	<sys/param.h>
+	<sys/types.h>
+	<sys/wait.h>
+	<sys/time.h>
+	<sys/resource.h>
+	<sys/stat.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<sys/mkdev.h>
+	<ctype.h>
+	"netif/ppp/ppp_impl.h"
+	"netif/ppp/fsm.h"
+	"netif/ppp/lcp.h"
+
+1496761854 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\netif\ppp\vj.c
+	"netif/ppp/ppp_opts.h"
+	"netif/ppp/ppp_impl.h"
+	"netif/ppp/pppdebug.h"
+	"netif/ppp/vj.h"
+	<string.h>
+	"arch/bpstruct.h"
+	"arch/epstruct.h"
+	"arch/bpstruct.h"
+	"arch/epstruct.h"
+
+1496761854 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\netif\slipif.c
+	"netif/slipif.h"
+	"lwip/opt.h"
+	"lwip/def.h"
+	"lwip/pbuf.h"
+	"lwip/stats.h"
+	"lwip/snmp.h"
+	"lwip/sys.h"
+	"lwip/sio.h"
+
+1496761857 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\netif\slipif.h
+	"lwip/opt.h"
+	"lwip/netif.h"
+
+1496761855 c:\repos\specializedsolutions\qcm\software\dc2017\src\lwip_2.0.0\src\include\lwip\sio.h
+	"lwip/arch.h"
+	"lwip/opt.h"
+
+1496687375 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\oled\font_large.c
+	<stdint.h>
+	"graphics.h"
+
+1499557445 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\oled\font_medium.c
+	<stdint.h>
+	"resources.h"
+
+1496687434 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\oled\font_small.c
+	<stdint.h>
+	"graphics.h"
+
+1499557433 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\oled\graphics.c
+	"datatypes.h"
+	"oled.h"
+	"resources.h"
+	<string.h>
+
+1496786607 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\oled\oled.c
+	"datatypes.h"
+	"cpu.h"
+	"oled.h"
+	"pin_mux.h"
+	"fsl_port.h"
+	"fsl_gpio.h"
+	"fsl_dspi_freertos.h"
+	"FreeRTOS.h"
+	"task.h"
+	"oled.h"
+
+1499404697 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\power\power.c
+	<string.h>
+	"board.h"
+	"pin_mux.h"
+	"clock_config.h"
+	"fsl_debug_console.h"
+	"FreeRTOS.h"
+	"task.h"
+	"pin_mux.h"
+	"fsl_port.h"
+	"fsl_gpio.h"
+	"fsl_adc16.h"
+
+1497021332 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\sdcard\event.c
+	"event.h"
+	"FreeRTOS.h"
+	"task.h"
+
+1496761963 c:\repos\specializedsolutions\qcm\software\dc2017\src\sdcard\event.h
+	"fsl_common.h"
+
+1496761886 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\sdcard\fatfs_0.12b\src\diskio.c
+	"ffconf.h"
+	"diskio.h"
+	"fsl_ram_disk.h"
+	"fsl_usb_disk.h"
+	"fsl_sd_disk.h"
+	"fsl_mmc_disk.h"
+	"fsl_sdspi_disk.h"
+
+1496761962 c:\repos\specializedsolutions\qcm\software\dc2017\src\sdcard\ffconf.h
+
+1496761886 c:\repos\specializedsolutions\qcm\software\dc2017\src\sdcard\fatfs_0.12b\src\diskio.h
+	"integer.h"
+
+1496761886 c:\repos\specializedsolutions\qcm\software\dc2017\src\sdcard\fatfs_0.12b\src\integer.h
+	<windows.h>
+	<tchar.h>
+
+1496761887 c:\repos\specializedsolutions\qcm\software\dc2017\src\sdcard\fatfs_0.12b\src\fsl_sd_disk\fsl_sd_disk.h
+	<stdint.h>
+	"diskio.h"
+
+1496761886 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\sdcard\fatfs_0.12b\src\ff.c
+	"ff.h"
+	"diskio.h"
+	<stdarg.h>
+
+1496761886 c:\repos\specializedsolutions\qcm\software\dc2017\src\sdcard\fatfs_0.12b\src\ff.h
+	"FreeRTOS.h"
+	"semphr.h"
+	"integer.h"
+	"ffconf.h"
+
+1496761887 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\sdcard\fatfs_0.12b\src\fsl_sd_disk\fsl_sd_disk.c
+	<assert.h>
+	<stdio.h>
+	<string.h>
+	"fsl_card.h"
+	"fsl_sd_disk.h"
+
+1496761904 c:\repos\specializedsolutions\qcm\software\dc2017\src\sdcard\sdmmc_2.1.2\inc\fsl_card.h
+	"fsl_common.h"
+	"fsl_specification.h"
+	"fsl_host.h"
+
+1496761904 c:\repos\specializedsolutions\qcm\software\dc2017\src\sdcard\sdmmc_2.1.2\inc\fsl_specification.h
+	<stdint.h>
+
+1496761904 c:\repos\specializedsolutions\qcm\software\dc2017\src\sdcard\sdmmc_2.1.2\inc\fsl_host.h
+	"fsl_common.h"
+	"board.h"
+	"fsl_sdhc.h"
+	"fsl_sdif.h"
+	"fsl_usdhc.h"
+	"fsl_iomuxc.h"
+
+1497021971 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\sdcard\fsl_host.c
+	"fsl_host.h"
+	"event.h"
+	"board.h"
+	"fsl_port.h"
+	"FreeRTOS.h"
+	"task.h"
+	"fsl_gpio.h"
+
+1499911594 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\sdcard\sdcard_fatfs.c
+	<stdio.h>
+	<string.h>
+	"fsl_debug_console.h"
+	"ff.h"
+	"diskio.h"
+	"board.h"
+	"fsl_sysmpu.h"
+	"pin_mux.h"
+	"clock_config.h"
+
+1497027748 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\sdcard\sdmmc_2.1.2\src\fsl_sd.c
+	"fsl_card.h"
+	"fsl_sdmmc.h"
+
+1496761904 c:\repos\specializedsolutions\qcm\software\dc2017\src\sdcard\sdmmc_2.1.2\inc\fsl_sdmmc.h
+	"fsl_card.h"
+
+1496761904 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\sdcard\sdmmc_2.1.2\src\fsl_sdmmc.c
+	"fsl_specification.h"
+	"fsl_card.h"
+
+1499968066 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\source\board.c
+	<stdint.h>
+	"board.h"
+	"fsl_common.h"
+	"fsl_debug_console.h"
+
+1499898141 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\source\clock_config.c
+	"clock_config.h"
+
+1500307093 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\source\dc2017.c
+	<string.h>
+	"board.h"
+	"pin_mux.h"
+	"clock_config.h"
+	"fsl_debug_console.h"
+	"FreeRTOS.h"
+	"task.h"
+	"queue.h"
+	"timers.h"
+	"led.h"
+	"graphics.h"
+	"oled.h"
+	"resources.h"
+	"accel.h"
+	"stdio_emb.h"
+	"fsl_uart.h"
+	"fsl_sysmpu.h"
+	"pin_mux.h"
+	"fsl_port.h"
+	"fsl_gpio.h"
+	"power.h"
+
+1499395980 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\source\pin_mux.c
+	"fsl_common.h"
+	"fsl_port.h"
+	"pin_mux.h"
+
+1499968477 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\startup\startup_mk63f12.c
+	<stdint.h>
+
+1496761917 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\usb\class\usb_device_cdc_acm.c
+	"usb_device_config.h"
+	"usb.h"
+	"usb_device.h"
+	"usb_device_cdc_acm.h"
+
+1496761917 c:\repos\specializedsolutions\qcm\software\dc2017\src\usb\class\usb_device_config.h
+
+1496854849 c:\repos\specializedsolutions\qcm\software\dc2017\src\usb\stack\include\usb.h
+	<stdint.h>
+	<stdio.h>
+	"usb_osa.h"
+	"usb_misc.h"
+	"usb_spec.h"
+
+1496761892 c:\repos\specializedsolutions\qcm\software\dc2017\src\usb\stack\osa\usb_osa.h
+	"usb_osa_bm.h"
+	"usb_osa_freertos.h"
+	"usb_osa_ucosii.h"
+	"usb_osa_ucosiii.h"
+	"usb_osa_bm.h"
+	"usb_osa_freertos.h"
+	"usb_osa_ucosii.h"
+	"usb_osa_ucosiii.h"
+
+1496761892 c:\repos\specializedsolutions\qcm\software\dc2017\src\usb\stack\osa\usb_osa_bm.h
+
+1496761892 c:\repos\specializedsolutions\qcm\software\dc2017\src\usb\stack\osa\usb_osa_freertos.h
+	"FreeRTOS.h"
+	"semphr.h"
+	"event_groups.h"
+
+1496761892 c:\repos\specializedsolutions\qcm\software\dc2017\src\usb\stack\include\usb_misc.h
+
+1496761892 c:\repos\specializedsolutions\qcm\software\dc2017\src\usb\stack\include\usb_spec.h
+
+1496761892 c:\repos\specializedsolutions\qcm\software\dc2017\src\usb\stack\device\usb_device.h
+
+1496761917 c:\repos\specializedsolutions\qcm\software\dc2017\src\usb\class\usb_device_cdc_acm.h
+
+1496761917 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\usb\class\usb_device_ch9.c
+	"usb_device_config.h"
+	"usb.h"
+	"usb_device.h"
+	"usb_device_dci.h"
+	"usb_device_ch9.h"
+
+1496761892 c:\repos\specializedsolutions\qcm\software\dc2017\src\usb\stack\device\usb_device_dci.h
+
+1496761917 c:\repos\specializedsolutions\qcm\software\dc2017\src\usb\class\usb_device_ch9.h
+
+1496761917 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\usb\class\usb_device_descriptor.c
+	"usb_device_config.h"
+	"usb.h"
+	"usb_device.h"
+	"usb_device_cdc_acm.h"
+	"usb_device_descriptor.h"
+
+1496761917 c:\repos\specializedsolutions\qcm\software\dc2017\src\usb\class\usb_device_descriptor.h
+
+1496854658 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\usb\class\virtual_com.c
+	"fsl_device_registers.h"
+	"clock_config.h"
+	"board.h"
+	<stdio.h>
+	<stdlib.h>
+	"usb_device_config.h"
+	"usb.h"
+	"usb_device.h"
+	"usb_device_cdc_acm.h"
+	"usb_device_ch9.h"
+	"fsl_debug_console.h"
+	"usb_device_descriptor.h"
+	"virtual_com.h"
+	"fsl_sysmpu.h"
+	"usb_phy.h"
+	"fsl_smc.h"
+	"pin_mux.h"
+
+1496854705 c:\repos\specializedsolutions\qcm\software\dc2017\src\usb\class\virtual_com.h
+
+1496761892 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\usb\stack\device\usb_device_dci.c
+	"usb_device_config.h"
+	"usb.h"
+	"usb_device.h"
+	"usb_device_dci.h"
+	"fsl_device_registers.h"
+	"usb_device_khci.h"
+	"usb_device_ehci.h"
+	"usb_device_lpcip3511.h"
+	"usb_device_ch9.h"
+
+1496761892 c:\repos\specializedsolutions\qcm\software\dc2017\src\usb\stack\device\usb_device_khci.h
+
+1496761892 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\usb\stack\device\usb_device_khci.c
+	"usb_device_config.h"
+	"usb.h"
+	"usb_device.h"
+	"fsl_device_registers.h"
+	"usb_khci.h"
+	"usb_device_dci.h"
+	"usb_device_khci.h"
+
+1496761892 c:\repos\specializedsolutions\qcm\software\dc2017\src\usb\stack\include\usb_khci.h
+
+1496761892 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\usb\stack\osa\usb_osa_bm.c
+	"stdint.h"
+	"usb.h"
+	"usb_osa.h"
+	"stdlib.h"
+	"fsl_device_registers.h"
+	"fsl_common.h"
+
+1496700504 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\utilities\fsl_debug_console.c
+	<stdarg.h>
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	"fsl_debug_console.h"
+	"fsl_uart.h"
+	"fsl_lpsci.h"
+	"fsl_lpuart.h"
+	"usb_device_config.h"
+	"usb.h"
+	"usb_device_cdc_acm.h"
+	"usb_device_ch9.h"
+	"virtual_com.h"
+	"fsl_usart.h"
+
+1468521262 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\utilities\stdio_emb.c
+	<stdarg.h>
+	<stddef.h>
+
+1500304832 c:\repos\specializedsolutions\qcm\software\dc2017\src\can\can.h
+	"datatypes.h"
+	"cpu.h"
+
+1500309232 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\can\can.c
+	"board.h"
+	"pin_mux.h"
+	"clock_config.h"
+	"FreeRTOS.h"
+	"task.h"
+	"fsl_flexcan.h"
+	"datatypes.h"
+	"cpu.h"
+	"can.h"
+
+1499402240 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\demos\dc2017\resources\nxp.c
+	<stdint.h>
+	"resources.h"
+
+1499531586 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\demos\dc2017\resources\rapid7.c
+	<stdint.h>
+	"resources.h"
+
+1500335901 source:c:\repos\specializedsolutions\qcm\software\dc2017\src\demos\dc2017\dc2017_main.c
+	<string.h>
+	"board.h"
+	"pin_mux.h"
+	"clock_config.h"
+	"fsl_debug_console.h"
+	"FreeRTOS.h"
+	"task.h"
+	"queue.h"
+	"timers.h"
+	"led.h"
+	"graphics.h"
+	"oled.h"
+	"resources.h"
+	"accel.h"
+	"stdio_emb.h"
+	"fsl_uart.h"
+	"fsl_sysmpu.h"
+	"pin_mux.h"
+	"fsl_port.h"
+	"fsl_gpio.h"
+	"power.h"
+	"accel.h"
+	"can.h"
+	<stdlib.h>
+

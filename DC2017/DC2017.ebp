@@ -1,0 +1,912 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<EmBitz_project_file>
+	<EmBitzVersion release="1.11" revision="0" />
+	<FileVersion major="1" minor="0" />
+	<Project>
+		<Option title="DC2017" />
+		<Option pch_mode="2" />
+		<Option compiler="armgcc_eb" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin\Debug\DC2017.elf" />
+				<Option object_output="obj\Debug\" />
+				<Option type="0" />
+				<Option create_hex="1" />
+				<Option compiler="armgcc_eb" />
+				<Option projectDeviceOptionsRelation="0" />
+				<Compiler>
+					<Add option="-O0" />
+					<Add option="-g2" />
+				</Compiler>
+				<Assembler>
+					<Add option="--gdwarf-2" />
+				</Assembler>
+				<Linker>
+					<Add option="-eb_lib=n" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin\Release\DC2017.elf" />
+				<Option object_output="obj\Release\" />
+				<Option type="0" />
+				<Option compiler="armgcc_eb" />
+				<Option projectDeviceOptionsRelation="0" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-g2" />
+					<Add option="-fdata-sections" />
+					<Add option="-ffunction-sections" />
+				</Compiler>
+				<Linker>
+					<Add option="-Wl,--gc-sections" />
+				</Linker>
+			</Target>
+			<Target title="EOL">
+				<Option output="bin\Debug\EOL.elf" />
+				<Option object_output="obj\Debug\" />
+				<Option type="0" />
+				<Option create_hex="1" />
+				<Option compiler="armgcc_eb" />
+				<Option projectDeviceOptionsRelation="0" />
+				<Compiler>
+					<Add option="-O0" />
+					<Add option="-g2" />
+				</Compiler>
+				<Assembler>
+					<Add option="--gdwarf-2" />
+				</Assembler>
+				<Linker>
+					<Add option="-eb_lib=n" />
+				</Linker>
+			</Target>
+		</Build>
+		<Device>
+			<Add option="$device=cortex-m4" />
+			<Add option="$fpu=fpv4-sp-d16" />
+			<Add option="$lscript=DC2017_Debug.ld" />
+		</Device>
+		<Compiler>
+			<Add option="-mfloat-abi=hard" />
+			<Add option="-Wall" />
+			<Add option="-fdata-sections" />
+			<Add option="-ffunction-sections" />
+			<Add symbol="CPU_MK63FN1M0VLQ12" />
+			<Add symbol="__USE_CMSIS" />
+			<Add symbol="CPU_MK63FN1M0VLQ12_cm4" />
+			<Add symbol="USB_STACK_BM" />
+			<Add symbol="USE_RTOS=1" />
+			<Add symbol="FSL_RTOS_FREE_RTOS" />
+			<Add symbol="PRINTF_ADVANCED_ENABLE=1" />
+			<Add symbol="AMX_TOKENTHREADING" />
+			<Add symbol="AMX_NOPROPLIST" />
+			<Add symbol="AMX_ALTCORE" />
+			<Add symbol="AMX_DONT_RELOCATE" />
+			<Add symbol="AMX_NATIVETABLE=qcm_native_table" />
+			<Add symbol="FLOATPOINT" />
+			<Add directory="Src\lwip_2.0.0\src\include" />
+			<Add directory="Src\lwip_2.0.0\contrib\apps" />
+		</Compiler>
+		<Linker>
+			<Add option="-eb_lib=n" />
+			<Add option="-Wl,--gc-sections" />
+		</Linker>
+		<Unit filename="DC2017_Debug.ld" />
+		<Unit filename="Src\accel\accel.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\accel\accel.h" />
+		<Unit filename="Src\can\can.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\can\can.h" />
+		<Unit filename="Src\CMSIS\arm_common_tables.h" />
+		<Unit filename="Src\CMSIS\arm_const_structs.h" />
+		<Unit filename="Src\CMSIS\arm_math.h" />
+		<Unit filename="Src\CMSIS\cmsis_armcc.h" />
+		<Unit filename="Src\CMSIS\cmsis_armcc_V6.h" />
+		<Unit filename="Src\CMSIS\cmsis_gcc.h" />
+		<Unit filename="Src\CMSIS\core_cm4.h" />
+		<Unit filename="Src\CMSIS\core_cmFunc.h" />
+		<Unit filename="Src\CMSIS\core_cmInstr.h" />
+		<Unit filename="Src\CMSIS\core_cmSimd.h" />
+		<Unit filename="Src\CMSIS\fsl_device_registers.h" />
+		<Unit filename="Src\CMSIS\MK63F12.h" />
+		<Unit filename="Src\CMSIS\MK63F12_features.h" />
+		<Unit filename="Src\CMSIS\system_MK63F12.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\CMSIS\system_MK63F12.h" />
+		<Unit filename="Src\demos\dc2017\dc2017_main.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="Src\demos\dc2017\pedometer\KeynetikPedometer.h" />
+		<Unit filename="Src\demos\dc2017\pedometer\pedometer.h" />
+		<Unit filename="Src\demos\dc2017\resources\bat_25.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\demos\dc2017\resources\bat_50.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\demos\dc2017\resources\bat_75.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\demos\dc2017\resources\bat_chrg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\demos\dc2017\resources\bat_empty.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\demos\dc2017\resources\bat_full.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\demos\dc2017\resources\NXP.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="Src\demos\dc2017\resources\rapid7.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="Src\demos\EOL\eol.c">
+			<Option compilerVar="CC" />
+			<Option target="EOL" />
+		</Unit>
+		<Unit filename="Src\drivers\fsl_adc16.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\drivers\fsl_adc16.h" />
+		<Unit filename="Src\drivers\fsl_clock.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\drivers\fsl_clock.h" />
+		<Unit filename="Src\drivers\fsl_cmp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\drivers\fsl_cmp.h" />
+		<Unit filename="Src\drivers\fsl_cmt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\drivers\fsl_cmt.h" />
+		<Unit filename="Src\drivers\fsl_common.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\drivers\fsl_common.h" />
+		<Unit filename="Src\drivers\fsl_crc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\drivers\fsl_crc.h" />
+		<Unit filename="Src\drivers\fsl_dac.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\drivers\fsl_dac.h" />
+		<Unit filename="Src\drivers\fsl_dmamux.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\drivers\fsl_dmamux.h" />
+		<Unit filename="Src\drivers\fsl_dspi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\drivers\fsl_dspi.h" />
+		<Unit filename="Src\drivers\fsl_dspi_edma.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\drivers\fsl_dspi_edma.h" />
+		<Unit filename="Src\drivers\fsl_dspi_freertos.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\drivers\fsl_dspi_freertos.h" />
+		<Unit filename="Src\drivers\fsl_edma.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\drivers\fsl_edma.h" />
+		<Unit filename="Src\drivers\fsl_enet.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\drivers\fsl_enet.h" />
+		<Unit filename="Src\drivers\fsl_ewm.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\drivers\fsl_ewm.h" />
+		<Unit filename="Src\drivers\fsl_flash.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\drivers\fsl_flash.h" />
+		<Unit filename="Src\drivers\fsl_flexbus.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\drivers\fsl_flexbus.h" />
+		<Unit filename="Src\drivers\fsl_flexcan.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\drivers\fsl_flexcan.h" />
+		<Unit filename="Src\drivers\fsl_ftm.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\drivers\fsl_ftm.h" />
+		<Unit filename="Src\drivers\fsl_gpio.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\drivers\fsl_gpio.h" />
+		<Unit filename="Src\drivers\fsl_i2c.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\drivers\fsl_i2c.h" />
+		<Unit filename="Src\drivers\fsl_i2c_freertos.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\drivers\fsl_i2c_freertos.h" />
+		<Unit filename="Src\drivers\fsl_llwu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\drivers\fsl_llwu.h" />
+		<Unit filename="Src\drivers\fsl_lptmr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\drivers\fsl_lptmr.h" />
+		<Unit filename="Src\drivers\fsl_pdb.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\drivers\fsl_pdb.h" />
+		<Unit filename="Src\drivers\fsl_pit.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\drivers\fsl_pit.h" />
+		<Unit filename="Src\drivers\fsl_pmc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\drivers\fsl_pmc.h" />
+		<Unit filename="Src\drivers\fsl_port.h" />
+		<Unit filename="Src\drivers\fsl_rcm.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\drivers\fsl_rcm.h" />
+		<Unit filename="Src\drivers\fsl_rnga.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\drivers\fsl_rnga.h" />
+		<Unit filename="Src\drivers\fsl_rtc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\drivers\fsl_rtc.h" />
+		<Unit filename="Src\drivers\fsl_sai.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\drivers\fsl_sai.h" />
+		<Unit filename="Src\drivers\fsl_sdhc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\drivers\fsl_sdhc.h" />
+		<Unit filename="Src\drivers\fsl_sim.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\drivers\fsl_sim.h" />
+		<Unit filename="Src\drivers\fsl_smc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\drivers\fsl_smc.h" />
+		<Unit filename="Src\drivers\fsl_sysmpu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\drivers\fsl_sysmpu.h" />
+		<Unit filename="Src\drivers\fsl_uart.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\drivers\fsl_uart.h" />
+		<Unit filename="Src\drivers\fsl_uart_freertos.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\drivers\fsl_uart_freertos.h" />
+		<Unit filename="Src\drivers\fsl_vref.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\drivers\fsl_vref.h" />
+		<Unit filename="Src\drivers\fsl_wdog.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\drivers\fsl_wdog.h" />
+		<Unit filename="Src\enet\fsl_phy.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\enet\fsl_phy.h" />
+		<Unit filename="Src\enet\lwip_tcpecho_freertos.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\freertos\croutine.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\freertos\croutine.h" />
+		<Unit filename="Src\freertos\deprecated_definitions.h" />
+		<Unit filename="Src\freertos\event_groups.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\freertos\event_groups.h" />
+		<Unit filename="Src\freertos\FreeRTOS.h" />
+		<Unit filename="Src\freertos\freertos_tasks_c_additions.h" />
+		<Unit filename="Src\freertos\FreeRTOSConfig.h" />
+		<Unit filename="Src\freertos\fsl_tickless_generic.h" />
+		<Unit filename="Src\freertos\fsl_tickless_lptmr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\freertos\fsl_tickless_systick.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\freertos\heap_3.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\freertos\list.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\freertos\list.h" />
+		<Unit filename="Src\freertos\mpu_prototypes.h" />
+		<Unit filename="Src\freertos\mpu_wrappers.h" />
+		<Unit filename="Src\freertos\port.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\freertos\portable.h" />
+		<Unit filename="Src\freertos\portmacro.h" />
+		<Unit filename="Src\freertos\projdefs.h" />
+		<Unit filename="Src\freertos\queue.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\freertos\queue.h" />
+		<Unit filename="Src\freertos\semphr.h" />
+		<Unit filename="Src\freertos\StackMacros.h" />
+		<Unit filename="Src\freertos\task.h" />
+		<Unit filename="Src\freertos\tasks.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\freertos\timers.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\freertos\timers.h" />
+		<Unit filename="Src\host\host.h" />
+		<Unit filename="Src\include\cpu.h" />
+		<Unit filename="Src\include\datatypes.h" />
+		<Unit filename="Src\led\led.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\led\led.h" />
+		<Unit filename="Src\lwip_2.0.0\contrib\apps\chargen\chargen.h" />
+		<Unit filename="Src\lwip_2.0.0\contrib\apps\httpserver\httpserver-netconn.h" />
+		<Unit filename="Src\lwip_2.0.0\contrib\apps\netio\netio.h" />
+		<Unit filename="Src\lwip_2.0.0\contrib\apps\ping\ping.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\lwip_2.0.0\contrib\apps\ping\ping.h" />
+		<Unit filename="Src\lwip_2.0.0\contrib\apps\rtp\rtp.h" />
+		<Unit filename="Src\lwip_2.0.0\contrib\apps\rtp\rtpdata.h" />
+		<Unit filename="Src\lwip_2.0.0\contrib\apps\shell\shell.h" />
+		<Unit filename="Src\lwip_2.0.0\contrib\apps\smtp\smtp.h" />
+		<Unit filename="Src\lwip_2.0.0\contrib\apps\snmp_private_mib\private_mib.h" />
+		<Unit filename="Src\lwip_2.0.0\contrib\apps\socket_examples\socket_examples.h" />
+		<Unit filename="Src\lwip_2.0.0\contrib\apps\tcpecho\tcpecho.h" />
+		<Unit filename="Src\lwip_2.0.0\contrib\apps\tcpecho_raw\tcpecho_raw.h" />
+		<Unit filename="Src\lwip_2.0.0\contrib\apps\udpecho\udpecho.h" />
+		<Unit filename="Src\lwip_2.0.0\contrib\apps\udpecho_raw\udpecho_raw.h" />
+		<Unit filename="Src\lwip_2.0.0\port\arch\cc.h" />
+		<Unit filename="Src\lwip_2.0.0\port\arch\perf.h" />
+		<Unit filename="Src\lwip_2.0.0\port\arch\sys_arch.h" />
+		<Unit filename="Src\lwip_2.0.0\port\ethernetif.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\lwip_2.0.0\port\ethernetif.h" />
+		<Unit filename="Src\lwip_2.0.0\port\lwipopts.h" />
+		<Unit filename="Src\lwip_2.0.0\port\sys_arch.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\lwip_2.0.0\src\api\api_lib.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\lwip_2.0.0\src\api\api_msg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\lwip_2.0.0\src\api\err.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\lwip_2.0.0\src\api\netbuf.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\lwip_2.0.0\src\api\netdb.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\lwip_2.0.0\src\api\netifapi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\lwip_2.0.0\src\api\sockets.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\lwip_2.0.0\src\api\tcpip.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\lwip_2.0.0\src\apps\httpd\fsdata.h" />
+		<Unit filename="Src\lwip_2.0.0\src\apps\httpd\httpd_structs.h" />
+		<Unit filename="Src\lwip_2.0.0\src\apps\httpsrv\httpsrv.h" />
+		<Unit filename="Src\lwip_2.0.0\src\apps\httpsrv\httpsrv_base64.h" />
+		<Unit filename="Src\lwip_2.0.0\src\apps\httpsrv\httpsrv_config.h" />
+		<Unit filename="Src\lwip_2.0.0\src\apps\httpsrv\httpsrv_fs.h" />
+		<Unit filename="Src\lwip_2.0.0\src\apps\httpsrv\httpsrv_port.h" />
+		<Unit filename="Src\lwip_2.0.0\src\apps\httpsrv\httpsrv_prv.h" />
+		<Unit filename="Src\lwip_2.0.0\src\apps\httpsrv\httpsrv_script.h" />
+		<Unit filename="Src\lwip_2.0.0\src\apps\httpsrv\httpsrv_sha1.h" />
+		<Unit filename="Src\lwip_2.0.0\src\apps\httpsrv\httpsrv_supp.h" />
+		<Unit filename="Src\lwip_2.0.0\src\apps\httpsrv\httpsrv_tls.h" />
+		<Unit filename="Src\lwip_2.0.0\src\apps\httpsrv\httpsrv_utf8.h" />
+		<Unit filename="Src\lwip_2.0.0\src\apps\httpsrv\httpsrv_ws.h" />
+		<Unit filename="Src\lwip_2.0.0\src\apps\httpsrv\httpsrv_ws_prv.h" />
+		<Unit filename="Src\lwip_2.0.0\src\apps\snmp\snmp_asn1.h" />
+		<Unit filename="Src\lwip_2.0.0\src\apps\snmp\snmp_core_priv.h" />
+		<Unit filename="Src\lwip_2.0.0\src\apps\snmp\snmp_msg.h" />
+		<Unit filename="Src\lwip_2.0.0\src\apps\snmp\snmp_pbuf_stream.h" />
+		<Unit filename="Src\lwip_2.0.0\src\apps\snmp\snmpv3_priv.h" />
+		<Unit filename="Src\lwip_2.0.0\src\core\def.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\lwip_2.0.0\src\core\dns.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\lwip_2.0.0\src\core\inet_chksum.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\lwip_2.0.0\src\core\init.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\lwip_2.0.0\src\core\ip.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\lwip_2.0.0\src\core\ipv4\autoip.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\lwip_2.0.0\src\core\ipv4\dhcp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\lwip_2.0.0\src\core\ipv4\etharp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\lwip_2.0.0\src\core\ipv4\icmp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\lwip_2.0.0\src\core\ipv4\igmp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\lwip_2.0.0\src\core\ipv4\ip4.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\lwip_2.0.0\src\core\ipv4\ip4_addr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\lwip_2.0.0\src\core\ipv4\ip4_frag.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\lwip_2.0.0\src\core\ipv6\dhcp6.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\lwip_2.0.0\src\core\ipv6\ethip6.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\lwip_2.0.0\src\core\ipv6\icmp6.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\lwip_2.0.0\src\core\ipv6\inet6.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\lwip_2.0.0\src\core\ipv6\ip6.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\lwip_2.0.0\src\core\ipv6\ip6_addr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\lwip_2.0.0\src\core\ipv6\ip6_frag.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\lwip_2.0.0\src\core\ipv6\mld6.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\lwip_2.0.0\src\core\ipv6\nd6.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\lwip_2.0.0\src\core\mem.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\lwip_2.0.0\src\core\memp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\lwip_2.0.0\src\core\netif.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\lwip_2.0.0\src\core\pbuf.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\lwip_2.0.0\src\core\raw.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\lwip_2.0.0\src\core\stats.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\lwip_2.0.0\src\core\sys.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\lwip_2.0.0\src\core\tcp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\lwip_2.0.0\src\core\tcp_in.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\lwip_2.0.0\src\core\tcp_out.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\lwip_2.0.0\src\core\timeouts.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\lwip_2.0.0\src\core\udp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\lwip_2.0.0\src\include\lwip\api.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\lwip\apps\fs.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\lwip\apps\httpd.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\lwip\apps\httpd_opts.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\lwip\apps\lwiperf.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\lwip\apps\mdns.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\lwip\apps\mdns_priv.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\lwip\apps\netbiosns.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\lwip\apps\snmp.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\lwip\apps\snmp_core.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\lwip\apps\snmp_mib2.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\lwip\apps\snmp_opts.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\lwip\apps\snmp_scalar.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\lwip\apps\snmp_table.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\lwip\apps\snmp_threadsync.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\lwip\apps\snmpv3.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\lwip\apps\sntp.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\lwip\apps\sntp_opts.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\lwip\apps\tftp_opts.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\lwip\apps\tftp_server.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\lwip\arch.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\lwip\autoip.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\lwip\debug.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\lwip\def.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\lwip\dhcp.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\lwip\dhcp6.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\lwip\dns.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\lwip\err.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\lwip\errno.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\lwip\etharp.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\lwip\ethip6.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\lwip\icmp.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\lwip\icmp6.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\lwip\igmp.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\lwip\inet.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\lwip\inet_chksum.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\lwip\init.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\lwip\ip.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\lwip\ip4.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\lwip\ip4_addr.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\lwip\ip4_frag.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\lwip\ip6.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\lwip\ip6_addr.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\lwip\ip6_frag.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\lwip\ip_addr.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\lwip\mem.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\lwip\memp.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\lwip\mld6.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\lwip\nd6.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\lwip\netbuf.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\lwip\netdb.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\lwip\netif.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\lwip\netifapi.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\lwip\opt.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\lwip\pbuf.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\lwip\priv\api_msg.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\lwip\priv\memp_priv.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\lwip\priv\memp_std.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\lwip\priv\tcp_priv.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\lwip\priv\tcpip_priv.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\lwip\prot\autoip.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\lwip\prot\dhcp.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\lwip\prot\dns.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\lwip\prot\etharp.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\lwip\prot\ethernet.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\lwip\prot\icmp.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\lwip\prot\icmp6.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\lwip\prot\igmp.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\lwip\prot\ip.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\lwip\prot\ip4.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\lwip\prot\ip6.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\lwip\prot\mld6.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\lwip\prot\nd6.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\lwip\prot\tcp.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\lwip\prot\udp.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\lwip\raw.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\lwip\sio.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\lwip\snmp.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\lwip\sockets.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\lwip\stats.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\lwip\sys.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\lwip\tcp.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\lwip\tcpip.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\lwip\timeouts.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\lwip\udp.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\netif\etharp.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\netif\ethernet.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\netif\lowpan6.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\netif\lowpan6_opts.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\netif\ppp\ccp.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\netif\ppp\chap-md5.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\netif\ppp\chap-new.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\netif\ppp\chap_ms.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\netif\ppp\eap.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\netif\ppp\ecp.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\netif\ppp\eui64.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\netif\ppp\fsm.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\netif\ppp\ipcp.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\netif\ppp\ipv6cp.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\netif\ppp\lcp.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\netif\ppp\magic.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\netif\ppp\mppe.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\netif\ppp\polarssl\arc4.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\netif\ppp\polarssl\des.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\netif\ppp\polarssl\md4.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\netif\ppp\polarssl\md5.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\netif\ppp\polarssl\sha1.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\netif\ppp\ppp.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\netif\ppp\ppp_impl.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\netif\ppp\ppp_opts.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\netif\ppp\pppapi.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\netif\ppp\pppcrypt.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\netif\ppp\pppdebug.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\netif\ppp\pppoe.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\netif\ppp\pppol2tp.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\netif\ppp\pppos.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\netif\ppp\upap.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\netif\ppp\vj.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\netif\slipif.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\posix\errno.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\posix\netdb.h" />
+		<Unit filename="Src\lwip_2.0.0\src\include\posix\sys\socket.h" />
+		<Unit filename="Src\lwip_2.0.0\src\netif\ethernet.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\lwip_2.0.0\src\netif\lowpan6.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\lwip_2.0.0\src\netif\ppp\auth.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\lwip_2.0.0\src\netif\ppp\ccp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\lwip_2.0.0\src\netif\ppp\chap-md5.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\lwip_2.0.0\src\netif\ppp\chap-new.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\lwip_2.0.0\src\netif\ppp\chap_ms.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\lwip_2.0.0\src\netif\ppp\demand.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\lwip_2.0.0\src\netif\ppp\eap.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\lwip_2.0.0\src\netif\ppp\eui64.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\lwip_2.0.0\src\netif\ppp\fsm.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\lwip_2.0.0\src\netif\ppp\ipcp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\lwip_2.0.0\src\netif\ppp\ipv6cp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\lwip_2.0.0\src\netif\ppp\lcp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\lwip_2.0.0\src\netif\ppp\lwip_ecp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\lwip_2.0.0\src\netif\ppp\magic.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\lwip_2.0.0\src\netif\ppp\mppe.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\lwip_2.0.0\src\netif\ppp\multilink.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\lwip_2.0.0\src\netif\ppp\ppp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\lwip_2.0.0\src\netif\ppp\pppapi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\lwip_2.0.0\src\netif\ppp\pppcrypt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\lwip_2.0.0\src\netif\ppp\pppoe.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\lwip_2.0.0\src\netif\ppp\pppol2tp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\lwip_2.0.0\src\netif\ppp\pppos.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\lwip_2.0.0\src\netif\ppp\upap.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\lwip_2.0.0\src\netif\ppp\utils.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\lwip_2.0.0\src\netif\ppp\vj.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\lwip_2.0.0\src\netif\slipif.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\oled\font_large.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\oled\font_medium.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\oled\font_small.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\oled\graphics.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\oled\graphics.h" />
+		<Unit filename="Src\oled\oled.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\oled\oled.h" />
+		<Unit filename="Src\oled\resources.h" />
+		<Unit filename="Src\pawn\amx_native_table_private.h" />
+		<Unit filename="Src\pawn\amx_qcm_debug.h" />
+		<Unit filename="Src\pawn\pawn_lib\amx.h" />
+		<Unit filename="Src\pawn\pawn_lib\amxaux.h" />
+		<Unit filename="Src\pawn\pawn_lib\amxcons.h" />
+		<Unit filename="Src\pawn\pawn_lib\amxgc.h" />
+		<Unit filename="Src\pawn\pawn_lib\amxpool.h" />
+		<Unit filename="Src\pawn\pawn_lib\osdefs.h" />
+		<Unit filename="Src\power\power.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\power\power.h" />
+		<Unit filename="Src\sdcard\event.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\sdcard\fatfs_0.12b\src\diskio.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\sdcard\fatfs_0.12b\src\diskio.h" />
+		<Unit filename="Src\sdcard\fatfs_0.12b\src\ff.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\sdcard\fatfs_0.12b\src\ff.h" />
+		<Unit filename="Src\sdcard\fatfs_0.12b\src\fsl_sd_disk\fsl_sd_disk.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\sdcard\fatfs_0.12b\src\fsl_sd_disk\fsl_sd_disk.h" />
+		<Unit filename="Src\sdcard\fatfs_0.12b\src\integer.h" />
+		<Unit filename="Src\sdcard\ffconf.h" />
+		<Unit filename="Src\sdcard\fsl_host.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\sdcard\sdcard_fatfs.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\sdcard\sdmmc_2.1.2\inc\fsl_card.h" />
+		<Unit filename="Src\sdcard\sdmmc_2.1.2\inc\fsl_host.h" />
+		<Unit filename="Src\sdcard\sdmmc_2.1.2\inc\fsl_sdmmc.h" />
+		<Unit filename="Src\sdcard\sdmmc_2.1.2\inc\fsl_specification.h" />
+		<Unit filename="Src\sdcard\sdmmc_2.1.2\src\fsl_sd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\sdcard\sdmmc_2.1.2\src\fsl_sdmmc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\source\board.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\source\board.h" />
+		<Unit filename="Src\source\clock_config.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\source\clock_config.h" />
+		<Unit filename="Src\source\DC2017.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\source\pin_mux.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\source\pin_mux.h" />
+		<Unit filename="Src\startup\startup_mk63f12.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\usb\class\usb_device_cdc_acm.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\usb\class\usb_device_cdc_acm.h" />
+		<Unit filename="Src\usb\class\usb_device_ch9.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\usb\class\usb_device_ch9.h" />
+		<Unit filename="Src\usb\class\usb_device_class.h" />
+		<Unit filename="Src\usb\class\usb_device_config.h" />
+		<Unit filename="Src\usb\class\usb_device_descriptor.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\usb\class\usb_device_descriptor.h" />
+		<Unit filename="Src\usb\class\virtual_com.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\usb\class\virtual_com.h" />
+		<Unit filename="Src\usb\stack\device\usb_device.h" />
+		<Unit filename="Src\usb\stack\device\usb_device_dci.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\usb\stack\device\usb_device_dci.h" />
+		<Unit filename="Src\usb\stack\device\usb_device_khci.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\usb\stack\device\usb_device_khci.h" />
+		<Unit filename="Src\usb\stack\include\usb.h" />
+		<Unit filename="Src\usb\stack\include\usb_khci.h" />
+		<Unit filename="Src\usb\stack\include\usb_misc.h" />
+		<Unit filename="Src\usb\stack\include\usb_spec.h" />
+		<Unit filename="Src\usb\stack\osa\usb_osa.h" />
+		<Unit filename="Src\usb\stack\osa\usb_osa_bm.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\usb\stack\osa\usb_osa_bm.h" />
+		<Unit filename="Src\usb\stack\osa\usb_osa_freertos.h" />
+		<Unit filename="Src\utilities\fsl_debug_console.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\utilities\fsl_debug_console.h" />
+		<Unit filename="Src\utilities\stdio_emb.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src\utilities\stdio_emb.h" />
+		<Extensions>
+			<code_completion />
+			<debugger>
+				<target_debugging_settings target="Debug" active_interface="J-link">
+					<debug_interface interface_id="Generic" ip_address="" ip_port="" path="" executable="" description="" dont_start_server="false" backoff_time="" options="0" reg_filter="0" active_family="" gdb_before_conn="" gdb_after_conn="" />
+					<debug_interface interface_id="J-link" ip_address="localhost" ip_port="2331" path="%Software\SEGGER\J-Link:InstallPath%" executable="JLinkGDBServer.exe" description=".\MK63F12.svd" dont_start_server="false" backoff_time="2000" options="0" reg_filter="0" active_family="Generic" gdb_before_conn="" gdb_after_conn="">
+						<family_options family_id="Generic">
+							<option opt_id="ID_CMD_BEFORE" opt_value="-select USB -device MK63FN1M0xxx12 -if SWD -speed auto" />
+							<option opt_id="ID_GDB_SERVER_CL" opt_value="-select USB -device MK63FN1M0xxx12 -if SWD -speed auto" />
+							<option opt_id="ID_CMD_RESET" opt_value="monitor reset" />
+							<option opt_id="ID_CMD_AFTER" opt_value="monitor reset&#x0A;load" />
+						</family_options>
+						<family_options family_id="NXP" />
+					</debug_interface>
+					<debug_interface interface_id="OpenOCD" ip_address="" ip_port="" path="" executable="" description="" dont_start_server="false" backoff_time="" options="0" reg_filter="0" active_family="" gdb_before_conn="" gdb_after_conn="" />
+				</target_debugging_settings>
+				<target_debugging_settings target="EOL" active_interface="J-link">
+					<debug_interface interface_id="Generic" ip_address="" ip_port="" path="" executable="" description="" dont_start_server="false" backoff_time="" options="0" reg_filter="0" active_family="" gdb_before_conn="" gdb_after_conn="" />
+					<debug_interface interface_id="J-link" ip_address="localhost" ip_port="2331" path="%Software\SEGGER\J-Link:InstallPath%" executable="JLinkGDBServer.exe" description=".\MK63F12.svd" dont_start_server="false" backoff_time="2000" options="0" reg_filter="0" active_family="Generic" gdb_before_conn="" gdb_after_conn="">
+						<family_options family_id="Generic">
+							<option opt_id="ID_CMD_BEFORE" opt_value="-select USB -device MK63FN1M0xxx12 -if SWD -speed auto" />
+							<option opt_id="ID_GDB_SERVER_CL" opt_value="-select USB -device MK63FN1M0xxx12 -if SWD -speed auto" />
+							<option opt_id="ID_CMD_RESET" opt_value="monitor reset" />
+							<option opt_id="ID_CMD_AFTER" opt_value="monitor reset&#x0A;load" />
+						</family_options>
+						<family_options family_id="NXP" />
+					</debug_interface>
+					<debug_interface interface_id="OpenOCD" ip_address="" ip_port="" path="" executable="" description="" dont_start_server="false" backoff_time="" options="0" reg_filter="0" active_family="" gdb_before_conn="" gdb_after_conn="" />
+				</target_debugging_settings>
+			</debugger>
+			<envvars />
+		</Extensions>
+	</Project>
+</EmBitz_project_file>

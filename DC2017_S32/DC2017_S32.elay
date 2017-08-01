@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<EmBitz_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="Inc\MK63F12.h" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="639262" topLine="9861" />
+		</Cursor>
+	</File>
+	<File name="S32K144_64_flash.ld" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="6743" topLine="31" />
+		</Cursor>
+	</File>
+	<File name="src\Generated_Code\canCom1.c" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2670" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\Generated_Code\canCom1.h" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4607" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\Generated_Code\canCom2.c" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\Generated_Code\canCom3.c" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\Generated_Code\clockMan1.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4209" topLine="35" />
+		</Cursor>
+	</File>
+	<File name="src\Generated_Code\clockMan1.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4221" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\Generated_Code\lpspiCom1.c" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2013" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\Generated_Code\lpspiCom1.h" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4141" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\Generated_Code\lpuart1.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1861" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\Generated_Code\lpuart1.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3491" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\Generated_Code\pin_mux.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="110164" topLine="1703" />
+		</Cursor>
+	</File>
+	<File name="src\Generated_Code\pin_mux.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="96503" topLine="1279" />
+		</Cursor>
+	</File>
+	<File name="src\Generated_Code\pwrMan1.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1639" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\Generated_Code\pwrMan1.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3988" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\SDK\platform\devices\device_registers.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1985" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\SDK\platform\devices\S32K144\include\S32K144.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="524399" topLine="8075" />
+		</Cursor>
+	</File>
+	<File name="src\SDK\platform\devices\S32K144\include\S32K144_features.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="35892" topLine="624" />
+		</Cursor>
+	</File>
+	<File name="src\SDK\platform\devices\S32K144\startup\system_S32K144.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2703" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\SDK\platform\devices\startup.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3918" topLine="40" />
+		</Cursor>
+	</File>
+	<File name="src\SDK\platform\drivers\inc\clock_manager.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2483" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\SDK\platform\drivers\inc\lpspi_shared_function.h" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3931" topLine="51" />
+		</Cursor>
+	</File>
+	<File name="src\SDK\platform\drivers\inc\lpuart_driver.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2291" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\SDK\platform\drivers\inc\pins_driver.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="88" />
+		</Cursor>
+	</File>
+	<File name="src\SDK\platform\drivers\inc\power_manager.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="12552" topLine="212" />
+		</Cursor>
+	</File>
+	<File name="src\SDK\platform\drivers\src\clock\clock_manager.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3691" topLine="81" />
+		</Cursor>
+	</File>
+	<File name="src\SDK\platform\drivers\src\clock\S32K144\clock_S32K144.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="8395" topLine="108" />
+		</Cursor>
+	</File>
+	<File name="src\SDK\platform\drivers\src\flexcan\flexcan_driver.c" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="28647" topLine="797" />
+		</Cursor>
+	</File>
+	<File name="src\SDK\platform\drivers\src\lpspi\lpspi_irq.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="30" />
+		</Cursor>
+	</File>
+	<File name="src\SDK\platform\drivers\src\lpspi\lpspi_master_driver.c" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="36758" topLine="639" />
+		</Cursor>
+	</File>
+	<File name="src\SDK\platform\drivers\src\lpspi\lpspi_shared_function.c" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="9343" topLine="163" />
+		</Cursor>
+	</File>
+	<File name="src\SDK\platform\drivers\src\lpspi\lpspi_slave_driver.c" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="9558" topLine="225" />
+		</Cursor>
+	</File>
+	<File name="src\SDK\platform\drivers\src\lpuart\lpuart_common.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3677" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\SDK\platform\drivers\src\lpuart\lpuart_driver.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="25870" topLine="545" />
+		</Cursor>
+	</File>
+	<File name="src\SDK\platform\drivers\src\pins\pins_driver.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2308" topLine="57" />
+		</Cursor>
+	</File>
+	<File name="src\SDK\platform\drivers\src\power\power_manager_common.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="17110" topLine="283" />
+		</Cursor>
+	</File>
+	<File name="src\SDK\platform\drivers\src\power\power_manager_smc.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="6747" topLine="153" />
+		</Cursor>
+	</File>
+	<File name="src\SDK\platform\hal\inc\gpio_hal.h" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="6123" topLine="145" />
+		</Cursor>
+	</File>
+	<File name="src\SDK\platform\hal\inc\pcc_hal.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4789" topLine="115" />
+		</Cursor>
+	</File>
+	<File name="src\SDK\platform\hal\inc\port_hal.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3888" topLine="45" />
+		</Cursor>
+	</File>
+	<File name="src\SDK\platform\hal\src\flexcan\flexcan_hal.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="30090" topLine="693" />
+		</Cursor>
+	</File>
+	<File name="src\SDK\platform\hal\src\lpuart\lpuart_hal.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="6234" topLine="66" />
+		</Cursor>
+	</File>
+	<File name="src\SDK\platform\hal\src\pcc\pcc_hal.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2366" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\SDK\platform\hal\src\scg\scg_hal.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="33257" topLine="850" />
+		</Cursor>
+	</File>
+	<File name="src\SDK\platform\hal\src\smc\smc_hal.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="9604" topLine="146" />
+		</Cursor>
+	</File>
+	<File name="src\Sources\main.c" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1461" topLine="32" />
+		</Cursor>
+	</File>
+	<File name="src\startup_S32K144.S" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="24644" topLine="313" />
+		</Cursor>
+	</File>
+</EmBitz_layout_file>

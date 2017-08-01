@@ -1,0 +1,34 @@
+FatFs_for_Kinetis_SDK_v2.0
+
+Original package is available from http://elm-chan.org/fsw/ff/00index_e.html.
+
+Directory structure:
+--------------------
+Original FatFs folder structure
+    ff
+     ├ doc
+     │  ├ en
+     │  ├ img
+     │  └ ja
+     └ src
+        └ option
+
+SDK FatFs folder structure
+    fatfs
+     ├ doc
+     │  ├ en
+     │  ├ img
+     │  └ ja
+     └ src
+        ├ fsl_mmc_disk
+        ├ fsl_option
+        ├ fsl_ram_disk
+        ├ fsl_sd_disk
+        ├ fsl_sdspi_disk
+        ├ fsl_usb_disk
+        └ option
+
+Configuration:
+--------------
+Each FatFs application contains application dependent configuration file ffconf.h based on template
+ffconf.h in src folder.

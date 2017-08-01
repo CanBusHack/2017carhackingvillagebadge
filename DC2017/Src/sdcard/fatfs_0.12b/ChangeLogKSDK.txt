@@ -1,0 +1,14 @@
+/**
+@page middleware_log Middleware Change Log
+
+@section FatFs FatFs for KSDK
+Current version is FatFs R0.12b.
+
+  - R0.12b_rev0
+  - R0.11a
+      - Add glue functions for low level drivers (SDHC, SDSPI, RAM, MMC). Modified diskio.c
+      - Add RTOS wrappers to make FatFs thread safe. Modified syscall.c
+      - Rename of ffconf.h to ffconf_template.h. Each application should contain its own ffconf.h.
+      - Include ffconf.h into diskio.c to enable selection of physical disk from ffconf.h by macro definition.
+      - Conditional compilation of physical disk interfaces in diskio.c
+*/
